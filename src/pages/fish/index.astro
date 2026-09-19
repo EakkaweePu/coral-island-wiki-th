@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import data from '../../../data/processed/fish.json';
+
+const { labels, fish } = data;
+
+/** Thai label from the game's own localization, falling back to the English value. */
+const label = (kind: keyof typeof labels, value: string): string =>
+	(labels[kind] as Record<string, string>)[value] ?? value;
+
+const SEASONS = ['Spring', 'Summer', 'Fall', 'Winter'];
+const TIMES = ['Morning', 'Afternoon', 'Evening', 'Night'];
+
+/** Lists every value, or a short phrase when the fish covers all of them. */
+const listOr = (all: string[], have: string[], kind: keyof typeof labels, everything: string): string =>
+	all.every((v) => have.includes(v))
+		? everything
+		: all.filter((v) => have.includes(v)).map((v) => label(kind, v)).join(', ');
+
+const rows = [...fish].sort((a, b) =>
+	(a.nameTh ?? a.nameEn).localeCompare(b.nameTh ?? b.nameEn, 'th'),
+);
+
+const withThai = rows.filter((f) => f.nameTh).length;
+---
+
+<BaseLayout
+	title="ปลาทั้งหมดในเกม Coral Island — ฤดู เวลา และสถานที่ตกปลา"
+	description={`ตารางปลาครบทั้ง ${rows.length} ชนิดในเกม Coral Island พร้อมชื่อไทยจากตัวเกม กรองตามฤดูและช่วงเวลาที่ตกได้ ดูราคาขายและแหล่งน้ำที่พบ`}
+>
+	<h1 class="text-3xl font-bold">ปลาทั้งหมดในเกม Coral Island</h1>
+
+	<p class="mt-4">
+		ตารางรวมปลาทั้งหมด <strong>{rows.length} ชนิด</strong> ที่ตกได้ในเกม
+		ชื่อไทยทุกตัวดึงมาจากไฟล์ภาษาไทยของเกมโดยตรง ไม่ได้แปลขึ้นมาเอง
+		จึงตรงกับคำที่ขึ้นบนหน้าจอตอนคุณตกปลาได้
+		มีชื่ออังกฤษกำกับไว้ใต้ชื่อไทยด้วย เผื่อใครเล่นเวอร์ชันภาษาอังกฤษหรืออยากค้นต่อ
+	</p>
+
+	<p class="mt-3">
+		ใช้ช่องเลือกด้านล่างกรองว่าฤดูไหนตกอะไรได้บ้าง หรือช่วงเวลาไหนมีปลาอะไรขึ้น
+		เลือกพร้อมกันทั้งสองช่องได้ เช่น ฤดูร้อนตอนกลางคืน
+		คอลัมน์แหล่งน้ำบอกว่าต้องไปตกที่ทะเล แม่น้ำ ทะเลสาบ บ่อน้ำ หรือในถ้ำ
+		ส่วนราคาคือเงินที่ได้ตอนขาย ยังไม่รวมโบนัสจากคุณภาพปลา
+	</p>
+
+	<div class="mt-6 flex flex-wrap gap-4">
+		<label class="text-sm">
+			<span class="block font-bold">ฤดู</span>
+			<select id="season" class="mt-1 rounded border border-slate-300 px-2 py-1">
+				<option value="">ทุกฤดู</option>
+				{SEASONS.map((s) => <option value={s}>{label('season', s)}</option>)}
+			</select>
+		</label>
+
+		<label class="text-sm">
+			<span class="block font-bold">ช่วงเวลา</span>
+			<select id="time" class="mt-1 rounded border border-slate-300 px-2 py-1">
+				<option value="">ทุกช่วงเวลา</option>
+				{TIMES.map((t) => <option value={t}>{label('time', t)}</option>)}
+			</select>
+		</label>
+	</div>
+
+	<p class="mt-4 text-sm text-slate-600" id="count" aria-live="polite">
+		แสดง {rows.length} จาก {rows.length} ชนิด
+	</p>
+
+	<div class="mt-2 overflow-x-auto">
+		<table class="w-full border-collapse text-sm">
+			<thead>
+				<tr class="border-b-2 border-slate-300 text-start">
+					<th class="py-2 pe-3 text-start">ชื่อปลา</th>
+					<th class="py-2 pe-3 text-start">ฤดู</th>
+					<th class="py-2 pe-3 text-start">เวลา</th>
+					<th class="py-2 pe-3 text-start">แหล่งน้ำ</th>
+					<th class="py-2 text-end">ราคาขาย</th>
+				</tr>
+			</thead>
+			<tbody id="rows">
+				{
+					rows.map((f) => (
+						<tr
+							class="border-b border-slate-200 align-top"
+							data-seasons={f.seasons.join(' ')}
+							data-times={f.times.join(' ')}
+						>
+							<td class="py-2 pe-3">
+								<span class="font-bold">{f.nameTh ?? f.nameEn}</span>
+								<span class="block text-xs text-slate-500">{f.nameEn}</span>
+							</td>
+							<td class="py-2 pe-3">{listOr(SEASONS, f.seasons, 'season', 'ทุกฤดู')}</td>
+							<td class="py-2 pe-3">{listOr(TIMES, f.times, 'time', 'ทั้งวัน')}</td>
+							<td class="py-2 pe-3">{f.areas.join(', ')}</td>
+							<td class="py-2 text-end tabular-nums">{f.sellPrice}</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<h2 class="mt-8 text-xl font-bold">เรื่องที่ควรรู้</h2>
+	<p class="mt-2">
+		ปลา {rows.length - withThai} ชนิดยังไม่มีชื่อไทยในตัวเกม
+		ตารางจึงแสดงชื่ออังกฤษแทน ไม่ได้แปลเองเพื่อไม่ให้ชื่อเพี้ยนไปจากที่เห็นในเกม
+		ปลาบางตัวตกได้หลายที่และเงื่อนไขต่างกันไปตามสถานที่
+		เช่นตัวเดียวกันอาจขึ้นเฉพาะฤดูใบไม้ร่วงถ้าไปตกที่แม่น้ำ แต่ขึ้นทั้งฤดูใบไม้ผลิและฤดูหนาวถ้าไปที่ปากแม่น้ำ
+		ตารางนี้รวมทุกเงื่อนไขไว้ด้วยกัน
+	</p>
+	<p class="mt-3">
+		กลับไป<a href="/" class="text-teal-700 underline">หน้าแรก</a>
+	</p>
+</BaseLayout>
+
+<script>
+	const season = document.querySelector<HTMLSelectElement>('#season')!;
+	const time = document.querySelector<HTMLSelectElement>('#time')!;
+	const count = document.querySelector<HTMLParagraphElement>('#count')!;
+	const rows = [...document.querySelectorAll<HTMLTableRowElement>('#rows tr')];
+
+	function apply() {
+		let shown = 0;
+		for (const row of rows) {
+			const okSeason = !season.value || row.dataset.seasons!.split(' ').includes(season.value);
+			const okTime = !time.value || row.dataset.times!.split(' ').includes(time.value);
+			const match = okSeason && okTime;
+			row.hidden = !match;
+			if (match) shown++;
+		}
+		count.textContent = `แสดง ${shown} จาก ${rows.length} ชนิด`;
+	}
+
+	season.addEventListener('change', apply);
+	time.addEventListener('change', apply);
+</script>
