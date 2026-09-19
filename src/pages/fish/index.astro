@@ -86,7 +86,9 @@ const withThai = rows.filter((f) => f.nameTh).length;
 							data-times={f.times.join(' ')}
 						>
 							<td class="py-2 pe-3">
-								<span class="font-bold">{f.nameTh ?? f.nameEn}</span>
+								<a href={`/fish/${f.slug}/`} class="font-bold text-teal-700 underline">
+									{f.nameTh ?? f.nameEn}
+								</a>
 								<span class="block text-xs text-slate-500">{f.nameEn}</span>
 							</td>
 							<td class="py-2 pe-3">{listOr(SEASONS, f.seasons, 'season', 'ทุกฤดู')}</td>

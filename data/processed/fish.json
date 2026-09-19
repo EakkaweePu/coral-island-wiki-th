@@ -36,8 +36,12 @@
 			"nameEn": "Angelfish",
 			"descriptionTh": "ปลาชนิดนี้ไม่กลัวเรือ แต่ไม่ได้หาได้ง่าย ๆ",
 			"descriptionEn": "They aren’t afraid of boats, but can be hard to find.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -75,6 +79,8 @@
 			"spawns": [
 				{
 					"rowName": "Angelfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"RiverForest",
 						"DeepForest"
@@ -112,8 +118,14 @@
 			"nameEn": "Arapaima",
 			"descriptionTh": "ปลาตัวใหญ่มาก วางไข่ในฤดูใบไม้ร่วงและฤดูหนาว ซึ่งเป็นช่วงที่น้ำเย็นลง",
 			"descriptionEn": "A very large fish. It spawns in Fall and Winter, when the water is cooler.",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare",
+				"Common"
+			],
+			"sizes": [
+				"Large",
+				"Small"
+			],
 			"price": 400,
 			"sellPrice": 240,
 			"sellAt": [
@@ -154,6 +166,8 @@
 			"spawns": [
 				{
 					"rowName": "Arapaima",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"RiverForest"
 					],
@@ -181,6 +195,8 @@
 				},
 				{
 					"rowName": "Arapaima_DeepForest",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -210,6 +226,8 @@
 				},
 				{
 					"rowName": "Arapaima_Savannah",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Savannah"
 					],
@@ -245,8 +263,13 @@
 			"nameEn": "Archer",
 			"descriptionTh": "ปลาทะเลที่ไม่ค่อยมีคนรู้จัก",
 			"descriptionEn": "An uncommon ocean fish.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -286,6 +309,8 @@
 			"spawns": [
 				{
 					"rowName": "Archer",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"RiverFarm",
 						"CaveEntrance"
@@ -315,6 +340,8 @@
 				},
 				{
 					"rowName": "Archer_Savannah",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Savannah"
 					],
@@ -350,8 +377,12 @@
 			"nameEn": "Asian sheepshead",
 			"descriptionTh": "กินหอยและสัตว์น้ำที่มีเปลือกแข็งเป็นอาหาร",
 			"descriptionEn": "Feeds on shellfish and crustaceans.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 290,
 			"sellPrice": 175,
 			"sellAt": [
@@ -386,6 +417,8 @@
 			"spawns": [
 				{
 					"rowName": "AsianSheepshead",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"OceanForest"
 					],
@@ -420,8 +453,12 @@
 			"nameEn": "Barracuda",
 			"descriptionTh": "ปลานักล่าแห่งน้ำเค็ม",
 			"descriptionEn": "A predatory saltwater fish.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 100,
 			"sellPrice": 60,
 			"sellAt": [
@@ -456,6 +493,8 @@
 			"spawns": [
 				{
 					"rowName": "Barracuda",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"OceanBeach",
 						"OceanDock"
@@ -490,8 +529,12 @@
 			"nameEn": "Barramundi",
 			"descriptionTh": "ถิ่นที่อยู่อาศัยได้แก่ ลำธาร ทะเลสาบ และน่านน้ำชายฝั่ง",
 			"descriptionEn": "Its habitat includes streams, lakes, and coastal waters.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 290,
 			"sellPrice": 175,
 			"sellAt": [
@@ -527,6 +570,8 @@
 			"spawns": [
 				{
 					"rowName": "Barramundi",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"RiverTown",
 						"Estuary"
@@ -562,8 +607,12 @@
 			"nameEn": "Black phantom ghost fish",
 			"descriptionTh": "ปลาสีดำสนิทที่ชอบว่ายอยู่ก้นแม่น้ำ",
 			"descriptionEn": "A jet black fish that likes to hover close to the riverbed.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -597,6 +646,8 @@
 			"spawns": [
 				{
 					"rowName": "BlackPhantomGhostFish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"RiverFarm",
 						"RiverForest",
@@ -630,8 +681,12 @@
 			"nameEn": "Blue tang",
 			"descriptionTh": "เป็นปลาที่มีลำตัวกลมแบน",
 			"descriptionEn": "It’s flat and circular.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -671,6 +726,8 @@
 			"spawns": [
 				{
 					"rowName": "BlueTang",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanBeach"
 					],
@@ -700,6 +757,8 @@
 				},
 				{
 					"rowName": "BlueTang_Cave",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningEarth"
 					],
@@ -737,8 +796,12 @@
 			"nameEn": "Bluegill",
 			"descriptionTh": "ปลาฤดูร้อนทั่วไป",
 			"descriptionEn": "A common Summer fish.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -773,6 +836,8 @@
 			"spawns": [
 				{
 					"rowName": "Bluegil",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Pond",
 						"RiverTown",
@@ -807,8 +872,12 @@
 			"nameEn": "Boxfish",
 			"descriptionTh": "เมื่อถูกคุกคาม มันจะปล่อยสารพิษออกจากผิวหนัง",
 			"descriptionEn": "When threatened, it releases poisonous substances from its skin.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -844,6 +913,8 @@
 			"spawns": [
 				{
 					"rowName": "Boxfish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanLookout"
 					],
@@ -879,8 +950,12 @@
 			"nameEn": "Brown trout",
 			"descriptionTh": "ปลาในทะเลสาบทั่วไป",
 			"descriptionEn": "A common lake fish.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -917,6 +992,8 @@
 			"spawns": [
 				{
 					"rowName": "BrownTrout",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"RiverFarm"
 					],
@@ -953,8 +1030,12 @@
 			"nameEn": "Catfish",
 			"descriptionTh": "อาศัยลึกลงไปในแม่น้ำ",
 			"descriptionEn": "Lives deep in the rivers.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -987,6 +1068,8 @@
 			"spawns": [
 				{
 					"rowName": "Catfish",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"RiceField",
 						"Pond",
@@ -1019,8 +1102,12 @@
 			"nameEn": "Chub",
 			"descriptionTh": "ปลาน้ำจืดทั่วไป",
 			"descriptionEn": "A common freshwater fish.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -1060,6 +1147,8 @@
 			"spawns": [
 				{
 					"rowName": "Chub",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"RiverForest",
 						"RiverTown",
@@ -1099,8 +1188,12 @@
 			"nameEn": "Clownfish",
 			"descriptionTh": "มักพบได้ในคืนอุ่น ๆ ของฤดูใบไม้ผลิ",
 			"descriptionEn": "It’s commonly found on warm Spring nights.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -1131,6 +1224,8 @@
 			"spawns": [
 				{
 					"rowName": "Clownfish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanDock"
 					],
@@ -1161,8 +1256,14 @@
 			"nameEn": "Cobia",
 			"descriptionTh": "เป็นปลาชนิดมีนิสัยอยากรู้อยากเห็นมาก อาศัยอยู่ในทะเลและไม่เคยกลัวเรือเลย",
 			"descriptionEn": "Very curious in nature. It lives in the sea and isn’t afraid of boats.",
-			"rarity": "Uncommon",
-			"size": "Large",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Large",
+				"Medium"
+			],
 			"price": 160,
 			"sellPrice": 95,
 			"sellAt": [
@@ -1203,6 +1304,8 @@
 			"spawns": [
 				{
 					"rowName": "Cobia",
+					"rarity": "Uncommon",
+					"size": "Large",
 					"locations": [
 						"Estuary",
 						"OceanDock"
@@ -1230,6 +1333,8 @@
 				},
 				{
 					"rowName": "Cobia_Cave",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"CaveMiningWater"
 					],
@@ -1268,8 +1373,12 @@
 			"nameEn": "Cod",
 			"descriptionTh": "ปลาทั่ว ๆ ไป",
 			"descriptionEn": "A common fish.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -1302,6 +1411,8 @@
 			"spawns": [
 				{
 					"rowName": "Cod",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"Estuary"
 					],
@@ -1334,8 +1445,12 @@
 			"nameEn": "Crab",
 			"descriptionTh": "มันเดินได้แนวขวางเท่านั้น",
 			"descriptionEn": "It walks sideways.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -1376,6 +1491,8 @@
 			"spawns": [
 				{
 					"rowName": "Crab",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"RiceField",
 						"RiverForest",
@@ -1416,8 +1533,12 @@
 			"nameEn": "Crayfish",
 			"descriptionTh": "หน้าตาคล้ายกุ้งมังกรตัวเล็ก ๆ อาศัยอยู่ในน้ำจืด",
 			"descriptionEn": "It looks like a tiny lobster and lives in freshwater.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -1459,6 +1580,8 @@
 			"spawns": [
 				{
 					"rowName": "Crayfish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Pond",
 						"RiverFarm",
@@ -1492,6 +1615,8 @@
 				},
 				{
 					"rowName": "Crayfish_Savannah",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Savannah"
 					],
@@ -1527,8 +1652,12 @@
 			"nameEn": "Damselfish",
 			"descriptionTh": "ปลาขนาดจิ๋วที่โหดร้าย",
 			"descriptionEn": "Small and aggressive.",
-			"rarity": "Rare",
-			"size": "Small",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 235,
 			"sellPrice": 140,
 			"sellAt": [
@@ -1563,6 +1692,8 @@
 			"spawns": [
 				{
 					"rowName": "Damselfish",
+					"rarity": "Rare",
+					"size": "Small",
 					"locations": [
 						"OceanBeach"
 					],
@@ -1597,8 +1728,12 @@
 			"nameEn": "Firefish",
 			"descriptionTh": "ค่อนข้างน่ากลัว",
 			"descriptionEn": "Fearful in nature.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -1636,6 +1771,8 @@
 			"spawns": [
 				{
 					"rowName": "Firefish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanForest"
 					],
@@ -1673,8 +1810,12 @@
 			"nameEn": "Flameback fish",
 			"descriptionTh": "ปลากินเนื้อที่พบในน้ำเค็ม",
 			"descriptionEn": "A carnivorous fish found in saltwater.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 100,
 			"sellPrice": 60,
 			"sellAt": [
@@ -1709,6 +1850,8 @@
 			"spawns": [
 				{
 					"rowName": "FlamebackFish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"OceanDock"
 					],
@@ -1743,8 +1886,12 @@
 			"nameEn": "Flowerhorn",
 			"descriptionTh": "ตามตำนานเชื่อว่ามันนำมาซึ่งความเจริญรุ่งเรืองและโชคลาภ",
 			"descriptionEn": "According to legend, it brings prosperity and luck.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 135,
 			"sellPrice": 80,
 			"sellAt": [
@@ -1782,6 +1929,8 @@
 			"spawns": [
 				{
 					"rowName": "Flowerhorn",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"CaveEntrance"
 					],
@@ -1819,8 +1968,12 @@
 			"nameEn": "Freshwater eel",
 			"descriptionTh": "ลำตัวลื่น ๆ กินปลาเล็ก ๆ เป็นอาหาร",
 			"descriptionEn": "It’s slimy and feeds on small fish.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -1861,6 +2014,8 @@
 			"spawns": [
 				{
 					"rowName": "FreshwaterEel",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"Estuary",
 						"RiverFarm"
@@ -1889,6 +2044,8 @@
 				},
 				{
 					"rowName": "FreshwaterEel_Cave",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"CaveMiningWater"
 					],
@@ -1927,8 +2084,12 @@
 			"nameEn": "Frogfish",
 			"descriptionTh": "แม้จะไม่ใช่ปลาที่สวยที่สุด แต่ก็เป็นปลาที่ว่องไวมา",
 			"descriptionEn": "Not the prettiest fish, but extremely agile.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -1965,6 +2126,8 @@
 			"spawns": [
 				{
 					"rowName": "Frogfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"Estuary",
 						"OceanLookout"
@@ -2001,8 +2164,12 @@
 			"nameEn": "Gator gar",
 			"descriptionTh": "ปลาชนิดนี้มีปากที่ยาวและแคบ",
 			"descriptionEn": "This fish has a long, narrow mouth.",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 350,
 			"sellPrice": 210,
 			"sellAt": [
@@ -2033,6 +2200,8 @@
 			"spawns": [
 				{
 					"rowName": "GatorGar",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"RiverForest",
 						"LakeTemple"
@@ -2063,8 +2232,13 @@
 			"nameEn": "Giant mudskipper",
 			"descriptionTh": "มันมักจะเกิดในช่วงฝนตก",
 			"descriptionEn": "It spawns often during the rain.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -2102,6 +2276,8 @@
 			"spawns": [
 				{
 					"rowName": "GiantMudskipper_Estuary",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"Estuary"
 					],
@@ -2128,6 +2304,8 @@
 				},
 				{
 					"rowName": "GiantMudskipper_RiceField",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"RiceField"
 					],
@@ -2154,6 +2332,8 @@
 				},
 				{
 					"rowName": "GiantMudskipper_Lava",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningFireLava"
 					],
@@ -2189,8 +2369,12 @@
 			"nameEn": "Giant sea bass",
 			"descriptionTh": "ชาวบ้านเรียกปลาชนิดนี้ว่าปลากะพงดำยักษ์ เลื่องขื่อมาก!",
 			"descriptionEn": "The locals call it black sea bass. Legendary.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1410,
 			"sellPrice": 845,
 			"sellAt": [
@@ -2222,6 +2406,8 @@
 			"spawns": [
 				{
 					"rowName": "GiantSeaBass",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanForest"
 					],
@@ -2257,6 +2443,8 @@
 				},
 				{
 					"rowName": "GiantSeaBass_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -2287,8 +2475,12 @@
 			"nameEn": "Giant snakehead",
 			"descriptionTh": "ลำตัวมีแถบสีขาวโดดเด่น",
 			"descriptionEn": "It has distinctive white stripes.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 160,
 			"sellPrice": 95,
 			"sellAt": [
@@ -2321,6 +2513,8 @@
 			"spawns": [
 				{
 					"rowName": "GiantSnakeHead",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"RiverForest",
 						"RiverTown"
@@ -2353,8 +2547,12 @@
 			"nameEn": "Giant stingray",
 			"descriptionTh": "ปลาน้ำจืดในตำนาน มันใหญ่มากแต่มันไม่มีกระดูก ร่างกายประกอบไปด้วยกระดูกอ่อนที่ยืดหยุ่น",
 			"descriptionEn": "A legendary freshwater fish. It’s massive, but it has no bones. The whole body is supported by flexible cartilage.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1410,
 			"sellPrice": 845,
 			"sellAt": [
@@ -2393,6 +2591,8 @@
 			"spawns": [
 				{
 					"rowName": "GiantStingray",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"RiverForest"
 					],
@@ -2438,6 +2638,8 @@
 				},
 				{
 					"rowName": "GiantStingray_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -2475,8 +2677,14 @@
 			"nameEn": "Golden gar",
 			"descriptionTh": "จะออกมาเฉพาะช่วงที่ฝนตกเท่านั้น",
 			"descriptionEn": "It only comes out in the rain.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare",
+				"Common"
+			],
+			"sizes": [
+				"Medium",
+				"Small"
+			],
 			"price": 290,
 			"sellPrice": 175,
 			"sellAt": [
@@ -2517,6 +2725,8 @@
 			"spawns": [
 				{
 					"rowName": "GoldenGar",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"RiverFarm",
 						"LakeTemple"
@@ -2542,6 +2752,8 @@
 				},
 				{
 					"rowName": "GoldenGar_Savannah",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Savannah"
 					],
@@ -2577,8 +2789,12 @@
 			"nameEn": "Goldfish",
 			"descriptionTh": "อาหารที่มันกินมีสัตว์เปลือกแข็งขนาดเล็กรวมอยู่ด้วย",
 			"descriptionEn": "Its diet includes small crustacea.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -2615,6 +2831,8 @@
 			"spawns": [
 				{
 					"rowName": "Goldfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"RiverFarm",
 						"RiverForest",
@@ -2651,8 +2869,12 @@
 			"nameEn": "Great white shark",
 			"descriptionTh": "ปลาน้ำเค็มในตำนาน สุดยอดนักล่าแห่งท้องทะเล",
 			"descriptionEn": "A legendary saltwater fish. The apex predator of the ocean.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1410,
 			"sellPrice": 845,
 			"sellAt": [
@@ -2679,6 +2901,8 @@
 			"spawns": [
 				{
 					"rowName": "GreatWhiteShark",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanDock"
 					],
@@ -2717,8 +2941,12 @@
 			"nameEn": "Green sawfish",
 			"descriptionTh": "ปลาน้ำจืดในตำนาน สามารถรับรู้กระแสไฟฟ้าจากสัตว์อื่นได้",
 			"descriptionEn": "A legendary freshwater fish. It can sense electricity from other animals.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1410,
 			"sellPrice": 845,
 			"sellAt": [
@@ -2752,6 +2980,8 @@
 			"spawns": [
 				{
 					"rowName": "GreenSawfish",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"Estuary"
 					],
@@ -2789,6 +3019,8 @@
 				},
 				{
 					"rowName": "GreenSawfish_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -2821,8 +3053,12 @@
 			"nameEn": "Grouper",
 			"descriptionTh": "ปลาตัวใหญ่มาก มีฟันไม่มากนักเลยชอบกลืนเหยื่อทั้งตัว",
 			"descriptionEn": "A very large fish. It doesn’t have many teeth and prefers to swallow its prey whole.",
-			"rarity": "Uncommon",
-			"size": "Large",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 160,
 			"sellPrice": 95,
 			"sellAt": [
@@ -2859,6 +3095,8 @@
 			"spawns": [
 				{
 					"rowName": "Grouper",
+					"rarity": "Uncommon",
+					"size": "Large",
 					"locations": [
 						"Estuary",
 						"OceanDock",
@@ -2895,8 +3133,12 @@
 			"nameEn": "Hammerhead",
 			"descriptionTh": "ปลาน้ำเค็มในตำนาน มันใช้หัวอันทรงพลังในการล่าหาอาหาร",
 			"descriptionEn": "A legendary saltwater fish. It uses its powerful head to hunt for food.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1410,
 			"sellPrice": 845,
 			"sellAt": [
@@ -2927,6 +3169,8 @@
 			"spawns": [
 				{
 					"rowName": "Hammerhead",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanLookout"
 					],
@@ -2980,8 +3224,12 @@
 			"nameEn": "Jellyfish",
 			"descriptionTh": "หน้าตาน่ารัก แต่อันตรายขั้นสุด",
 			"descriptionEn": "Cute, but venomous and dangerous.",
-			"rarity": "Rare",
-			"size": "Small",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 160,
 			"sellPrice": 95,
 			"sellAt": [
@@ -3009,6 +3257,8 @@
 			"spawns": [
 				{
 					"rowName": "Jellyfish",
+					"rarity": "Rare",
+					"size": "Small",
 					"locations": [
 						"OceanBeach",
 						"OceanLookout"
@@ -3036,8 +3286,12 @@
 			"nameEn": "Koi",
 			"descriptionTh": "ปลาลายจุดสุดสวย",
 			"descriptionEn": "A beautifully spotted fish.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 290,
 			"sellPrice": 175,
 			"sellAt": [
@@ -3072,6 +3326,8 @@
 			"spawns": [
 				{
 					"rowName": "Koi",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"RiverTown",
 						"CaveEntrance",
@@ -3106,8 +3362,12 @@
 			"nameEn": "Lionfish",
 			"descriptionTh": "เป็นปลาที่ชอบน้ำอุ่น มักจะพบได้ในฤดูร้อน",
 			"descriptionEn": "It likes warm water. Commonly found in the Summer.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 90,
 			"sellPrice": 55,
 			"sellAt": [
@@ -3141,6 +3401,8 @@
 			"spawns": [
 				{
 					"rowName": "Lionfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"OceanBeach",
 						"OceanForest"
@@ -3174,8 +3436,14 @@
 			"nameEn": "Lobster",
 			"descriptionTh": "มักพบได้ใกล้ท่าเรือ",
 			"descriptionEn": "Commonly found near the pier.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Medium",
+				"Large"
+			],
 			"price": 190,
 			"sellPrice": 115,
 			"sellAt": [
@@ -3214,6 +3482,8 @@
 			"spawns": [
 				{
 					"rowName": "Lobster",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"OceanBeach"
 					],
@@ -3244,6 +3514,8 @@
 				},
 				{
 					"rowName": "Lobster_Cave",
+					"rarity": "Common",
+					"size": "Large",
 					"locations": [
 						"CaveMiningFire"
 					],
@@ -3281,8 +3553,12 @@
 			"nameEn": "Mackerel",
 			"descriptionTh": "มักว่ายไปไหนมาไหนเป็นกลุ่ม",
 			"descriptionEn": "Swims in large groups.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -3322,6 +3598,8 @@
 			"spawns": [
 				{
 					"rowName": "Mackarel",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"OceanLookout",
 						"OceanForest"
@@ -3353,6 +3631,8 @@
 				},
 				{
 					"rowName": "Mackarel_Lava",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"CaveMiningFireLava"
 					],
@@ -3390,8 +3670,12 @@
 			"nameEn": "Mandarin",
 			"descriptionTh": "ปลาหลากสีสันที่ออกหากินในเวลากลางคืน",
 			"descriptionEn": "A colorful fish that comes out at night.",
-			"rarity": "Rare",
-			"size": "Small",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 235,
 			"sellPrice": 140,
 			"sellAt": [
@@ -3425,6 +3709,8 @@
 			"spawns": [
 				{
 					"rowName": "Mandarin",
+					"rarity": "Rare",
+					"size": "Small",
 					"locations": [
 						"OceanForest"
 					],
@@ -3458,8 +3744,12 @@
 			"nameEn": "Monkfish",
 			"descriptionTh": "ปลาน้ำเค็มในตำนาน ไม่ใช่ปลาที่สวยที่สุด",
 			"descriptionEn": "A legendary saltwater fish. Not the prettiest fish.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1240,
 			"sellPrice": 745,
 			"sellAt": [
@@ -3491,6 +3781,8 @@
 			"spawns": [
 				{
 					"rowName": "Monkfish",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanForest"
 					],
@@ -3524,6 +3816,8 @@
 				},
 				{
 					"rowName": "Monkfish_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -3554,8 +3848,12 @@
 			"nameEn": "Octopus",
 			"descriptionTh": "สามารถฟื้นฟูแขนขาที่หายไปได้ มักพบคลานอยู่บนพื้นมหาสมุทร",
 			"descriptionEn": "Can regrow lost limbs. It’s usually found crawling on the ocean floor.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 140,
 			"sellPrice": 85,
 			"sellAt": [
@@ -3589,6 +3887,8 @@
 			"spawns": [
 				{
 					"rowName": "Octopus",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"OceanDock",
 						"OceanBeach"
@@ -3622,8 +3922,12 @@
 			"nameEn": "Parrotfish",
 			"descriptionTh": "มันออกล่าในเวลากลางวันและนอนในเวลากลางคืนในรังไหมเมือกที่สร้างขึ้นเอง",
 			"descriptionEn": "It hunts during the day and sleeps at night in a self-built mucus cocoon.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 90,
 			"sellPrice": 55,
 			"sellAt": [
@@ -3659,6 +3963,8 @@
 			"spawns": [
 				{
 					"rowName": "Parrotfish",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"OceanBeach",
 						"OceanLookout"
@@ -3694,8 +4000,12 @@
 			"nameEn": "Pink snapper",
 			"descriptionTh": "ปลาน้ำเค็มทั่วไปที่มีลำตัวเป็นสีชมพู",
 			"descriptionEn": "A common saltwater fish known for its pinkish hue.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -3734,6 +4044,8 @@
 			"spawns": [
 				{
 					"rowName": "PinkSnapper",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanDock"
 					],
@@ -3762,6 +4074,8 @@
 				},
 				{
 					"rowName": "PinkSnapper_Cave",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningAir"
 					],
@@ -3799,8 +4113,13 @@
 			"nameEn": "Polka-dot batfish",
 			"descriptionTh": "มันกินเหยื่อโดยการใช้ปากเป็นวงกลมฉกฉวย พบได้ในทะเล",
 			"descriptionEn": "It eats its prey by snatching them with its circular mouth. Found at sea.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 135,
 			"sellPrice": 80,
 			"sellAt": [
@@ -3839,6 +4158,8 @@
 			"spawns": [
 				{
 					"rowName": "PolkadotBatfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"OceanForest"
 					],
@@ -3867,6 +4188,8 @@
 				},
 				{
 					"rowName": "PolkadotBatfish_Cave",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningAir"
 					],
@@ -3904,8 +4227,13 @@
 			"nameEn": "Pufferfish",
 			"descriptionTh": "ท้องของมันจะพองตัวขึ้นเมื่อมีภัย",
 			"descriptionEn": "Its elastic stomach inflates when it’s threatened.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 115,
 			"sellPrice": 70,
 			"sellAt": [
@@ -3945,6 +4273,8 @@
 			"spawns": [
 				{
 					"rowName": "Pufferfish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"OceanDock",
 						"OceanLookout"
@@ -3971,6 +4301,8 @@
 				},
 				{
 					"rowName": "Pufferfish_Cave",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningAir"
 					],
@@ -4008,8 +4340,12 @@
 			"nameEn": "Rainbow fish",
 			"descriptionTh": "โดดเด่นด้วยจุด ๆ และบลัชออนสีแดงบนแก้ม",
 			"descriptionEn": "Characterized by spots and a red blush on its cheeks.",
-			"rarity": "Uncommon",
-			"size": "Small",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 100,
 			"sellPrice": 60,
 			"sellAt": [
@@ -4049,6 +4385,8 @@
 			"spawns": [
 				{
 					"rowName": "RainbowFish",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"RiverTown"
 					],
@@ -4076,6 +4414,8 @@
 				},
 				{
 					"rowName": "RainbowFish_DeepForest",
+					"rarity": "Uncommon",
+					"size": "Small",
 					"locations": [
 						"DeepForest"
 					],
@@ -4114,8 +4454,12 @@
 			"nameEn": "Raja Ampat shark",
 			"descriptionTh": "ปลาน้ำเค็มในตำนาน สามารถ “เดิน” ไปตามพื้นทะเลและเหนือแนวปะการังน้ำตื้นได้",
 			"descriptionEn": "A legendary saltwater fish. It can “walk” along the seafloor and over shallow reefs.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1240,
 			"sellPrice": 745,
 			"sellAt": [
@@ -4145,6 +4489,8 @@
 			"spawns": [
 				{
 					"rowName": "RajaAmpatShark",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanLookout"
 					],
@@ -4178,6 +4524,8 @@
 				},
 				{
 					"rowName": "RajaAmpatShark_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -4206,8 +4554,13 @@
 			"nameEn": "Red king arowana",
 			"descriptionTh": "ปลาน้ำจืดในตำนาน ถือเป็นสัญลักษณ์แห่งความโชคดี",
 			"descriptionEn": "A legendary freshwater fish. Considered a symbol of good fortune.",
-			"rarity": "Legendary",
-			"size": "Medium",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Medium",
+				"Small"
+			],
 			"price": 1035,
 			"sellPrice": 620,
 			"sellAt": [
@@ -4250,6 +4603,8 @@
 			"spawns": [
 				{
 					"rowName": "KingRedArowana",
+					"rarity": "Legendary",
+					"size": "Medium",
 					"locations": [
 						"CaveMiningFire",
 						"CaveMiningAir",
@@ -4288,6 +4643,8 @@
 				},
 				{
 					"rowName": "KingRedArowana_Savannah",
+					"rarity": "Legendary",
+					"size": "Small",
 					"locations": [
 						"Savannah"
 					],
@@ -4326,8 +4683,13 @@
 			"nameEn": "Red snapper",
 			"descriptionTh": "มันวางไข่เพื่อสืบพันธุ์",
 			"descriptionEn": "It lays eggs to reproduce.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common",
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -4367,6 +4729,8 @@
 			"spawns": [
 				{
 					"rowName": "RedSnapper",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"RiverTown",
 						"LakeTemple"
@@ -4398,6 +4762,8 @@
 				},
 				{
 					"rowName": "RedSnapper_Estuary",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"Estuary"
 					],
@@ -4435,8 +4801,12 @@
 			"nameEn": "Ruby red dragonet",
 			"descriptionTh": "ปลาตัวเล็ก",
 			"descriptionEn": "A small, feisty fish.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -4475,6 +4845,8 @@
 			"spawns": [
 				{
 					"rowName": "RubyRedDragonet",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanBeach",
 						"CaveEntrance"
@@ -4513,8 +4885,13 @@
 			"nameEn": "Salmon",
 			"descriptionTh": "ปลาน้ำเค็มทั่วไป",
 			"descriptionEn": "A common saltwater fish.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon",
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -4556,6 +4933,8 @@
 			"spawns": [
 				{
 					"rowName": "Salmon_Estuary",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"Estuary"
 					],
@@ -4585,6 +4964,8 @@
 				},
 				{
 					"rowName": "Salmon_LakeTemple",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"LakeTemple"
 					],
@@ -4614,6 +4995,8 @@
 				},
 				{
 					"rowName": "Salmon_Fall",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"RiverFarm",
 						"RiverForest",
@@ -4648,8 +5031,12 @@
 			"nameEn": "Sardine",
 			"descriptionTh": "น้ำมันฉ่ำมากแต่อุดมไปด้วยสารอาหาร",
 			"descriptionEn": "Very oily and packed with nutrients.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -4689,6 +5076,8 @@
 			"spawns": [
 				{
 					"rowName": "Sardine",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"OceanBeach",
 						"OceanLookout"
@@ -4714,6 +5103,8 @@
 				},
 				{
 					"rowName": "Sardine_Lava",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningFireLava"
 					],
@@ -4751,8 +5142,13 @@
 			"nameEn": "Sea cucumber",
 			"descriptionTh": "หาได้ยาก เพราะชอบอาศัยอยู่ที่ก้นทะเลลึก",
 			"descriptionEn": "Rarely encountered because it likes to live on the deep seafloor.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Medium",
+				"Small"
+			],
 			"price": 290,
 			"sellPrice": 175,
 			"sellAt": [
@@ -4791,6 +5187,8 @@
 			"spawns": [
 				{
 					"rowName": "SeaCucumber",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"OceanForest"
 					],
@@ -4821,6 +5219,8 @@
 				},
 				{
 					"rowName": "SeaCucumber_DeepForest",
+					"rarity": "Rare",
+					"size": "Small",
 					"locations": [
 						"DeepForest"
 					],
@@ -4858,8 +5258,12 @@
 			"nameEn": "Shrimp",
 			"descriptionTh": "อยู่กันเป็นกลุ่ม",
 			"descriptionEn": "Travels in schools.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -4897,6 +5301,8 @@
 			"spawns": [
 				{
 					"rowName": "Shrimp",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Pond"
 					],
@@ -4934,8 +5340,12 @@
 			"nameEn": "Silver arowana",
 			"descriptionTh": "ปลานักล่าที่ต้องกระโดดออกจากน้ำเพื่อตามล่าเหยื่อ",
 			"descriptionEn": "A predatory fish. It’s known to jump out of the water in pursuit of prey.",
-			"rarity": "Uncommon",
-			"size": "Medium",
+			"rarities": [
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 135,
 			"sellPrice": 80,
 			"sellAt": [
@@ -4971,6 +5381,8 @@
 			"spawns": [
 				{
 					"rowName": "SilverArowana",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"CaveMiningEarth",
 						"CaveMiningWater",
@@ -5006,8 +5418,12 @@
 			"nameEn": "Snakehead",
 			"descriptionTh": "เป็นนักล่าที่ดุร้าย มีปากขนาดใหญ่และฟันเป็นมันเงา",
 			"descriptionEn": "A fierce predator with a large mouth and shiny teeth.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -5038,6 +5454,8 @@
 			"spawns": [
 				{
 					"rowName": "SnakeheadFish",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"LakeTemple"
 					],
@@ -5068,8 +5486,13 @@
 			"nameEn": "Sockeye salmon",
 			"descriptionTh": "มันจะฟักตัวในทะเลสาบ แล้วเดินทางออกทะเลเพื่อหาอาหารจากแพลงก์ตอนสัตว์",
 			"descriptionEn": "It hatches in a lake, then journeys out to sea to feed on zooplankton.",
-			"rarity": "Rare",
-			"size": "Medium",
+			"rarities": [
+				"Rare",
+				"Uncommon"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 135,
 			"sellPrice": 80,
 			"sellAt": [
@@ -5111,6 +5534,8 @@
 			"spawns": [
 				{
 					"rowName": "SockeyeSalmon_Estuary",
+					"rarity": "Rare",
+					"size": "Medium",
 					"locations": [
 						"Estuary"
 					],
@@ -5140,6 +5565,8 @@
 				},
 				{
 					"rowName": "SockeyeSalmon_LakeTemple",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"LakeTemple"
 					],
@@ -5169,6 +5596,8 @@
 				},
 				{
 					"rowName": "SockeyeSalmon_Fall",
+					"rarity": "Uncommon",
+					"size": "Medium",
 					"locations": [
 						"RiverFarm",
 						"RiverForest",
@@ -5203,8 +5632,12 @@
 			"nameEn": "Squid",
 			"descriptionTh": "เมื่อถูกคุกคามจะปล่อยหมึกสีดำ ๆ ออกมา",
 			"descriptionEn": "Shoots black ink when threatened.",
-			"rarity": "Common",
-			"size": "Medium",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Medium"
+			],
 			"price": 75,
 			"sellPrice": 45,
 			"sellAt": [
@@ -5236,6 +5669,8 @@
 			"spawns": [
 				{
 					"rowName": "Squid",
+					"rarity": "Common",
+					"size": "Medium",
 					"locations": [
 						"OceanLookout"
 					],
@@ -5267,8 +5702,12 @@
 			"nameEn": "Sturgeon",
 			"descriptionTh": "ปลาสเตอร์เจียนตัวเมียสามารถวางไข่ได้สองถึงสามล้านฟองต่อฤดูผสมพันธุ์",
 			"descriptionEn": "Female sturgeon can lay two to three million eggs per breeding season.",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 400,
 			"sellPrice": 240,
 			"sellAt": [
@@ -5308,6 +5747,8 @@
 			"spawns": [
 				{
 					"rowName": "Sturgeon",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"RiverFarm",
 						"LakeTemple"
@@ -5336,6 +5777,8 @@
 				},
 				{
 					"rowName": "Sturgeon_DeepForest",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -5372,8 +5815,12 @@
 			"nameEn": "Swordfish",
 			"descriptionTh": "ปากของมันมีขนาดยาวแหลมเหมือนดาบ",
 			"descriptionEn": "Its long, pointy bill is said to resemble a sword.",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 350,
 			"sellPrice": 210,
 			"sellAt": [
@@ -5409,6 +5856,8 @@
 			"spawns": [
 				{
 					"rowName": "Swordfish",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"OceanDock"
 					],
@@ -5444,8 +5893,12 @@
 			"nameEn": "Tiger barb",
 			"descriptionTh": "ปลาน้ำจืดทั่วไปที่มีแถบสีดำบนตัว",
 			"descriptionEn": "A common freshwater fish known for its black stripes.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -5478,6 +5931,8 @@
 			"spawns": [
 				{
 					"rowName": "TigerBarb",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Pond",
 						"LakeTemple"
@@ -5510,8 +5965,12 @@
 			"nameEn": "Tilapia",
 			"descriptionTh": "ปลาน้ำจืดทั่วไป",
 			"descriptionEn": "A common freshwater fish.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 65,
 			"sellPrice": 40,
 			"sellAt": [
@@ -5553,6 +6012,8 @@
 			"spawns": [
 				{
 					"rowName": "Tilapia",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"Pond",
 						"LakeTemple"
@@ -5584,6 +6045,8 @@
 				},
 				{
 					"rowName": "Tilapia_Cave",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"CaveMiningEarth"
 					],
@@ -5623,8 +6086,13 @@
 			"nameEn": "Tuna",
 			"descriptionTh": "มีความสามารถในการรักษาอุณหภูมิของร่างกายให้คงที่",
 			"descriptionEn": "It has the ability to maintain a constant body temperature.",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare",
+				"Uncommon"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 400,
 			"sellPrice": 240,
 			"sellAt": [
@@ -5664,6 +6132,8 @@
 			"spawns": [
 				{
 					"rowName": "Tuna",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"OceanDock",
 						"OceanLookout"
@@ -5688,6 +6158,8 @@
 				},
 				{
 					"rowName": "Tuna_Cave",
+					"rarity": "Uncommon",
+					"size": "Large",
 					"locations": [
 						"CaveMiningFire"
 					],
@@ -5725,8 +6197,12 @@
 			"nameEn": "Yellow moray eel",
 			"descriptionTh": "ปลาน้ำเค็มในตำนาน ต่างจากปลาอื่น ๆ ที่หายใจผ่านเหงือก ปลาไหลชนิดนี้จะเปิดและปิดปากเพื่อหายใจ",
 			"descriptionEn": "A legendary saltwater fish. Unlike many other fish that breathe through gills, the eel opens and closes its mouth to breathe.",
-			"rarity": "Legendary",
-			"size": "Large",
+			"rarities": [
+				"Legendary"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 1240,
 			"sellPrice": 745,
 			"sellAt": [
@@ -5765,6 +6241,8 @@
 			"spawns": [
 				{
 					"rowName": "YellowMorayEel",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"OceanBeach"
 					],
@@ -5811,6 +6289,8 @@
 				},
 				{
 					"rowName": "YellowMorayEel_DeepForest",
+					"rarity": "Legendary",
+					"size": "Large",
 					"locations": [
 						"DeepForest"
 					],
@@ -5848,8 +6328,12 @@
 			"nameEn": "Yellowfin tuna",
 			"descriptionTh": "โอ้โหเป็นปลาทูน่าที่ใหญ่มาก!",
 			"descriptionEn": "That is one big tuna!",
-			"rarity": "Rare",
-			"size": "Large",
+			"rarities": [
+				"Rare"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 350,
 			"sellPrice": 210,
 			"sellAt": [
@@ -5881,6 +6365,8 @@
 			"spawns": [
 				{
 					"rowName": "YellowfinTuna",
+					"rarity": "Rare",
+					"size": "Large",
 					"locations": [
 						"OceanDock",
 						"OceanBeach"
@@ -5912,8 +6398,12 @@
 			"nameEn": "Yellowtail",
 			"descriptionTh": "ปลาน้ำเค็มทั่วไป",
 			"descriptionEn": "A common saltwater fish.",
-			"rarity": "Common",
-			"size": "Large",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Large"
+			],
 			"price": 90,
 			"sellPrice": 55,
 			"sellAt": [
@@ -5952,6 +6442,8 @@
 			"spawns": [
 				{
 					"rowName": "Yellowtail",
+					"rarity": "Common",
+					"size": "Large",
 					"locations": [
 						"OceanDock"
 					],
@@ -5980,6 +6472,8 @@
 				},
 				{
 					"rowName": "Yellowtail_Cave",
+					"rarity": "Common",
+					"size": "Large",
 					"locations": [
 						"CaveMiningFire"
 					],
@@ -6017,8 +6511,12 @@
 			"nameEn": "Zebra fish",
 			"descriptionTh": "ปลาทั่วไปของฤดูใบไม้ผลิ",
 			"descriptionEn": "A common fish of the Spring.",
-			"rarity": "Common",
-			"size": "Small",
+			"rarities": [
+				"Common"
+			],
+			"sizes": [
+				"Small"
+			],
 			"price": 60,
 			"sellPrice": 35,
 			"sellAt": [
@@ -6058,6 +6556,8 @@
 			"spawns": [
 				{
 					"rowName": "ZebraFish",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"RiceField"
 					],
@@ -6088,6 +6588,8 @@
 				},
 				{
 					"rowName": "ZebraFish_Spring",
+					"rarity": "Common",
+					"size": "Small",
 					"locations": [
 						"RiverFarm",
 						"RiverForest"

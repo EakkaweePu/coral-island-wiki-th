@@ -143,6 +143,10 @@ const fish = [...byItem].map(([itemId, rows]) => {
 	// season/time combination actually applies at which location.
 	const spawns = rows.map(({ rowName, row }) => ({
 		rowName,
+		// Rarity and size vary per spawn row for some fish, so they belong here,
+		// not on the fish. Collapsing them to one value reports the wrong number.
+		rarity: enumValue(row.Rarity),
+		size: enumValue(row.fishSize),
 		locations: row.SpawnLocation.map(enumValue),
 		areas: enabledFlags(row.SpawnArea).map((k) => k.replace(/^CanBeCatchOn/, '')),
 		seasons: enabledFlags(row.SpawnSeason),
@@ -163,8 +167,8 @@ const fish = [...byItem].map(([itemId, rows]) => {
 		nameEn,
 		descriptionTh: thai(`${itemId}_description`),
 		descriptionEn: item.description?.SourceString ?? null,
-		rarity: enumValue(first.Rarity),
-		size: enumValue(first.fishSize),
+		rarities: [...new Set(spawns.map((s) => s.rarity))],
+		sizes: [...new Set(spawns.map((s) => s.size))],
 		price: item.price,
 		sellPrice: item.sellPrice,
 		sellAt: item.sellAt ?? [],
@@ -210,7 +214,7 @@ const labels = {
 
 const untranslated = {
 	time: union([fish.flatMap((f) => f.times)]).filter((v) => !(v in labels.time)),
-	rarity: [...new Set(fish.map((f) => f.rarity))],
+	rarity: union([fish.flatMap((f) => f.rarities)]),
 	area: union([fish.flatMap((f) => f.areas)]),
 	location: union([fish.flatMap((f) => f.locations)]),
 };

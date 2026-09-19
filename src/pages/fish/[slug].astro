@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { fish, buildPage, pageWords, displayName, type Fish } from '../../lib/fish';
+
+export function getStaticPaths() {
+	// Only fish with enough to say get their own page — thin pages do not get
+	// indexed and drag the rest of the site down. The others stay in /fish/.
+	// getStaticPaths runs in its own scope, so this cannot live outside it.
+	const MIN_WORDS = 150;
+
+	return fish
+		.filter((f) => pageWords(f) >= MIN_WORDS)
+		.map((f) => ({ params: { slug: f.slug }, props: { f } }));
+}
+
+const { f } = Astro.props as { f: Fish };
+const { paragraphs, spawnRows, stats, nearby, seasonMates } = buildPage(f);
+const name = displayName(f);
+---
+
+<BaseLayout
+	title={`${name} (${f.nameEn}) — ตกได้ที่ไหน ฤดูไหน | Coral Island ไทย`}
+	description={`${name} ในเกม Coral Island ตกได้ที่ไหน ฤดูอะไร ช่วงเวลาไหน ขายได้เท่าไหร่ ข้อมูลครบจากไฟล์ภาษาไทยในตัวเกม`}
+>
+	<nav aria-label="เส้นทาง" class="text-sm text-slate-500">
+		<a href="/fish/" class="text-teal-700 underline">ปลาทั้งหมด</a> / {name}
+	</nav>
+
+	<h1 class="mt-2 text-3xl font-bold">{name}</h1>
+	<p class="text-lg text-slate-500">{f.nameEn}</p>
+
+	{paragraphs.map((p) => <p class="mt-4">{p}</p>)}
+
+	<h2 class="mt-8 text-xl font-bold">ตกได้ที่ไหน เมื่อไหร่</h2>
+	<div class="mt-2 overflow-x-auto">
+		<table class="w-full border-collapse text-sm">
+			<thead>
+				<tr class="border-b-2 border-slate-300">
+					<th class="py-2 pe-3 text-start">สถานที่</th>
+					<th class="py-2 pe-3 text-start">ฤดู</th>
+					<th class="py-2 pe-3 text-start">เวลา</th>
+					<th class="py-2 pe-3 text-start">สภาพอากาศ</th>
+					<th class="py-2 pe-3 text-start">ความหายาก</th>
+					<th class="py-2 text-start">ขนาด</th>
+				</tr>
+			</thead>
+			<tbody>
+				{
+					spawnRows.map((r) => (
+						<tr class="border-b border-slate-200 align-top">
+							<td class="py-2 pe-3 font-bold">{r.location}</td>
+							<td class="py-2 pe-3">{r.seasons}</td>
+							<td class="py-2 pe-3">{r.times}</td>
+							<td class="py-2 pe-3">{r.weather}</td>
+							<td class="py-2 pe-3">{r.rarity}</td>
+							<td class="py-2">{r.size}</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<h2 class="mt-8 text-xl font-bold">ข้อมูลตัวเลข</h2>
+	<dl class="mt-2 grid grid-cols-[auto_1fr] gap-x-6 gap-y-1 text-sm">
+		{
+			stats.map((s) => (
+				<>
+					<dt class="text-slate-500">{s.label}</dt>
+					<dd class="font-bold">{s.value}</dd>
+				</>
+			))
+		}
+	</dl>
+
+	{
+		nearby.length > 0 && (
+			<>
+				<h2 class="mt-8 text-xl font-bold">ปลาอื่นที่ตกได้ในจุดเดียวกัน</h2>
+				<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+					{nearby.map((o) => (
+						<li>
+							<a href={`/fish/${o.slug}/`} class="text-teal-700 underline">
+								{displayName(o)}
+							</a>
+						</li>
+					))}
+				</ul>
+			</>
+		)
+	}
+
+	{
+		seasonMates.length > 0 && (
+			<>
+				<h2 class="mt-8 text-xl font-bold">ปลาอื่นที่ตกได้ในฤดูเดียวกัน</h2>
+				<ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+					{seasonMates.map((o) => (
+						<li>
+							<a href={`/fish/${o.slug}/`} class="text-teal-700 underline">
+								{displayName(o)}
+							</a>
+						</li>
+					))}
+				</ul>
+			</>
+		)
+	}
+
+	<p class="mt-8">
+		ดู<a href="/fish/" class="text-teal-700 underline">ตารางปลาทั้งหมด {fish.length} ชนิด</a>
+		หรือกลับ<a href="/" class="text-teal-700 underline">หน้าแรก</a>
+	</p>
+</BaseLayout>

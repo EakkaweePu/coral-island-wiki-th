@@ -37,6 +37,26 @@ for (const f of fish) {
 	}
 }
 
+// Rarity and size differ between spawn rows for some fish. Collapsing them to a
+// single value silently reported the wrong number once already.
+for (const f of fish) {
+	for (const [plural, single] of [
+		['rarities', 'rarity'],
+		['sizes', 'size'],
+	] as const) {
+		assert.deepEqual(
+			new Set(f[plural]),
+			new Set(f.spawns.map((s: Record<string, string>) => s[single])),
+			`${f.itemId}: ${plural} ไม่ตรงกับค่าใน spawns`,
+		);
+	}
+	assert.ok(!('rarity' in f), `${f.itemId}: ยังมี rarity เดี่ยวอยู่ ต้องใช้ rarities`);
+}
+assert.ok(
+	fish.some((f: { rarities: string[]; sizes: string[] }) => f.rarities.length > 1 || f.sizes.length > 1),
+	'ไม่มีปลาที่ความหายาก/ขนาดต่างกันเลย แปลว่าถูกยุบรวมไปแล้ว',
+);
+
 // A fish caught in several places must keep them as separate spawn rows.
 const salmon = fish.find((f: { slug: string }) => f.slug === 'salmon');
 assert.ok(salmon, 'ไม่เจอ salmon');
