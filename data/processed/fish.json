@@ -1,0 +1,6118 @@
+{
+	"labels": {
+		"season": {
+			"Spring": "ฤดูใบไม้ผลิ",
+			"Summer": "ฤดูร้อน",
+			"Fall": "ฤดูใบไม้ร่วง",
+			"Winter": "ฤดูหนาว"
+		},
+		"time": {
+			"Morning": "เช้า",
+			"Evening": "เย็น",
+			"Night": "กลางคืน"
+		},
+		"weather": {
+			"Sunny": "แดดแรง",
+			"Rain": "ฝนตก",
+			"Storm": "พายุเข้า",
+			"Windy": "ลมแรง",
+			"Snow": "หิมะตก",
+			"Blizzard": "พายุหิมะ"
+		},
+		"size": {
+			"Small": "ปลาขนาดเล็ก",
+			"Medium": "ปลาขนาดกลาง",
+			"Large": "ปลาขนาดใหญ่"
+		},
+		"category": {
+			"Fish": "ปลา"
+		}
+	},
+	"fish": [
+		{
+			"slug": "angelfish",
+			"itemId": "item_72020",
+			"nameTh": "ปลาสินสมุทร",
+			"nameEn": "Angelfish",
+			"descriptionTh": "ปลาชนิดนี้ไม่กลัวเรือ แต่ไม่ได้หาได้ง่าย ๆ",
+			"descriptionEn": "They aren’t afraid of boats, but can be hard to find.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 12.7,
+			"maxCaughtSize": 25.4,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"River"
+			],
+			"locations": [
+				"RiverForest",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Angelfish",
+					"locations": [
+						"RiverForest",
+						"DeepForest"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "arapaima",
+			"itemId": "item_71017",
+			"nameTh": null,
+			"nameEn": "Arapaima",
+			"descriptionTh": "ปลาตัวใหญ่มาก วางไข่ในฤดูใบไม้ร่วงและฤดูหนาว ซึ่งเป็นช่วงที่น้ำเย็นลง",
+			"descriptionEn": "A very large fish. It spawns in Fall and Winter, when the water is cooler.",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 400,
+			"sellPrice": 240,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 213,
+			"maxCaughtSize": 251,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Winter",
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard",
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"RiverForest",
+				"DeepForest",
+				"Savannah"
+			],
+			"spawns": [
+				{
+					"rowName": "Arapaima",
+					"locations": [
+						"RiverForest"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Arapaima_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Arapaima_Savannah",
+					"locations": [
+						"Savannah"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "archer",
+			"itemId": "item_72019",
+			"nameTh": "ปลาเสือพ่นน้ำ",
+			"nameEn": "Archer",
+			"descriptionTh": "ปลาทะเลที่ไม่ค่อยมีคนรู้จัก",
+			"descriptionEn": "An uncommon ocean fish.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 22.8,
+			"maxCaughtSize": 30.5,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Winter",
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"River"
+			],
+			"locations": [
+				"RiverFarm",
+				"CaveEntrance",
+				"Savannah"
+			],
+			"spawns": [
+				{
+					"rowName": "Archer",
+					"locations": [
+						"RiverFarm",
+						"CaveEntrance"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Archer_Savannah",
+					"locations": [
+						"Savannah"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "asian-sheepshead",
+			"itemId": "item_72024",
+			"nameTh": "ปลาหัวแกะเอเชีย",
+			"nameEn": "Asian sheepshead",
+			"descriptionTh": "กินหอยและสัตว์น้ำที่มีเปลือกแข็งเป็นอาหาร",
+			"descriptionEn": "Feeds on shellfish and crustaceans.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 290,
+			"sellPrice": 175,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 87.5,
+			"maxCaughtSize": 100,
+			"experience": 12,
+			"seasons": [
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest"
+			],
+			"spawns": [
+				{
+					"rowName": "AsianSheepshead",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "barracuda",
+			"itemId": "item_73003",
+			"nameTh": "ปลาสากใหญ่",
+			"nameEn": "Barracuda",
+			"descriptionTh": "ปลานักล่าแห่งน้ำเค็ม",
+			"descriptionEn": "A predatory saltwater fish.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 100,
+			"sellPrice": 60,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 60,
+			"maxCaughtSize": 99,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"OceanDock"
+			],
+			"spawns": [
+				{
+					"rowName": "Barracuda",
+					"locations": [
+						"OceanBeach",
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "barramundi",
+			"itemId": "item_73009",
+			"nameTh": null,
+			"nameEn": "Barramundi",
+			"descriptionTh": "ถิ่นที่อยู่อาศัยได้แก่ ลำธาร ทะเลสาบ และน่านน้ำชายฝั่ง",
+			"descriptionEn": "Its habitat includes streams, lakes, and coastal waters.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 290,
+			"sellPrice": 175,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 60,
+			"maxCaughtSize": 150,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"RiverTown",
+				"Estuary"
+			],
+			"spawns": [
+				{
+					"rowName": "Barramundi",
+					"locations": [
+						"RiverTown",
+						"Estuary"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "black-phantom-ghost-fish",
+			"itemId": "item_71007",
+			"nameTh": "ปลาแบล็คโกสต์",
+			"nameEn": "Black phantom ghost fish",
+			"descriptionTh": "ปลาสีดำสนิทที่ชอบว่ายอยู่ก้นแม่น้ำ",
+			"descriptionEn": "A jet black fish that likes to hover close to the riverbed.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 2.5,
+			"maxCaughtSize": 5,
+			"experience": 12,
+			"seasons": [
+				"Spring"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverFarm",
+				"RiverForest",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "BlackPhantomGhostFish",
+					"locations": [
+						"RiverFarm",
+						"RiverForest",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "blue-tang",
+			"itemId": "item_72021",
+			"nameTh": "ปลาบลูแทงค์",
+			"nameEn": "Blue tang",
+			"descriptionTh": "เป็นปลาที่มีลำตัวกลมแบน",
+			"descriptionEn": "It’s flat and circular.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 13,
+			"maxCaughtSize": 37,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Fall",
+				"Winter",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean",
+				"Cave"
+			],
+			"locations": [
+				"OceanBeach",
+				"CaveMiningEarth"
+			],
+			"spawns": [
+				{
+					"rowName": "BlueTang",
+					"locations": [
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "BlueTang_Cave",
+					"locations": [
+						"CaveMiningEarth"
+					],
+					"areas": [
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "bluegill",
+			"itemId": "item_71016",
+			"nameTh": "ปลาบลูกิล",
+			"nameEn": "Bluegill",
+			"descriptionTh": "ปลาฤดูร้อนทั่วไป",
+			"descriptionEn": "A common Summer fish.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 17.5,
+			"maxCaughtSize": 41,
+			"experience": 12,
+			"seasons": [
+				"Summer"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"Pond",
+				"RiverTown",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "Bluegil",
+					"locations": [
+						"Pond",
+						"RiverTown",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Summer"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "boxfish",
+			"itemId": "item_72025",
+			"nameTh": "ปลาปักเป้ากล่อง",
+			"nameEn": "Boxfish",
+			"descriptionTh": "เมื่อถูกคุกคาม มันจะปล่อยสารพิษออกจากผิวหนัง",
+			"descriptionEn": "When threatened, it releases poisonous substances from its skin.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 12.7,
+			"maxCaughtSize": 45.72,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean",
+				"Cave"
+			],
+			"locations": [
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Boxfish",
+					"locations": [
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "brown-trout",
+			"itemId": "item_71021",
+			"nameTh": "ปลาเทราท์สีน้ำตาล",
+			"nameEn": "Brown trout",
+			"descriptionTh": "ปลาในทะเลสาบทั่วไป",
+			"descriptionEn": "A common lake fish.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 35,
+			"maxCaughtSize": 60,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"River"
+			],
+			"locations": [
+				"RiverFarm"
+			],
+			"spawns": [
+				{
+					"rowName": "BrownTrout",
+					"locations": [
+						"RiverFarm"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "catfish",
+			"itemId": "item_71002",
+			"nameTh": "ปลาดุก",
+			"nameEn": "Catfish",
+			"descriptionTh": "อาศัยลึกลงไปในแม่น้ำ",
+			"descriptionEn": "Lives deep in the rivers.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 57,
+			"maxCaughtSize": 132,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiceField",
+				"Pond",
+				"RiverForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Catfish",
+					"locations": [
+						"RiceField",
+						"Pond",
+						"RiverForest"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "chub",
+			"itemId": "item_71020",
+			"nameTh": "ปลาหางเสือ",
+			"nameEn": "Chub",
+			"descriptionTh": "ปลาน้ำจืดทั่วไป",
+			"descriptionEn": "A common freshwater fish.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 12.5,
+			"maxCaughtSize": 18,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River",
+				"Cave"
+			],
+			"locations": [
+				"RiverForest",
+				"RiverTown",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "Chub",
+					"locations": [
+						"RiverForest",
+						"RiverTown",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Cave"
+					],
+					"seasons": [
+						"Summer",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "clownfish",
+			"itemId": "item_72022",
+			"nameTh": "ปลาการ์ตูน",
+			"nameEn": "Clownfish",
+			"descriptionTh": "มักพบได้ในคืนอุ่น ๆ ของฤดูใบไม้ผลิ",
+			"descriptionEn": "It’s commonly found on warm Spring nights.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 7.6,
+			"maxCaughtSize": 9,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock"
+			],
+			"spawns": [
+				{
+					"rowName": "Clownfish",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "cobia",
+			"itemId": "item_71009",
+			"nameTh": "ปลาช่อนทะเล",
+			"nameEn": "Cobia",
+			"descriptionTh": "เป็นปลาชนิดมีนิสัยอยากรู้อยากเห็นมาก อาศัยอยู่ในทะเลและไม่เคยกลัวเรือเลย",
+			"descriptionEn": "Very curious in nature. It lives in the sea and isn’t afraid of boats.",
+			"rarity": "Uncommon",
+			"size": "Large",
+			"price": 160,
+			"sellPrice": 95,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 91.44,
+			"maxCaughtSize": 182.88,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean",
+				"Cave"
+			],
+			"locations": [
+				"Estuary",
+				"OceanDock",
+				"CaveMiningWater"
+			],
+			"spawns": [
+				{
+					"rowName": "Cobia",
+					"locations": [
+						"Estuary",
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Cobia_Cave",
+					"locations": [
+						"CaveMiningWater"
+					],
+					"areas": [
+						"Ocean",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "cod",
+			"itemId": "item_73001",
+			"nameTh": "ปลาค็อด",
+			"nameEn": "Cod",
+			"descriptionTh": "ปลาทั่ว ๆ ไป",
+			"descriptionEn": "A common fish.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 68.5,
+			"maxCaughtSize": 106.6,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"Estuary"
+			],
+			"spawns": [
+				{
+					"rowName": "Cod",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "crab",
+			"itemId": "item_72028",
+			"nameTh": "ปู",
+			"nameEn": "Crab",
+			"descriptionTh": "มันเดินได้แนวขวางเท่านั้น",
+			"descriptionEn": "It walks sideways.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 11,
+			"maxCaughtSize": 17.7,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"RiceField",
+				"RiverForest",
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Crab",
+					"locations": [
+						"RiceField",
+						"RiverForest",
+						"OceanLookout"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "crayfish",
+			"itemId": "item_71012",
+			"nameTh": "เครย์ฟิช",
+			"nameEn": "Crayfish",
+			"descriptionTh": "หน้าตาคล้ายกุ้งมังกรตัวเล็ก ๆ อาศัยอยู่ในน้ำจืด",
+			"descriptionEn": "It looks like a tiny lobster and lives in freshwater.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 2.5,
+			"maxCaughtSize": 8,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"Pond",
+				"RiverFarm",
+				"DeepForest",
+				"Savannah"
+			],
+			"spawns": [
+				{
+					"rowName": "Crayfish",
+					"locations": [
+						"Pond",
+						"RiverFarm",
+						"DeepForest"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Crayfish_Savannah",
+					"locations": [
+						"Savannah"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "damselfish",
+			"itemId": "item_72017",
+			"nameTh": "ปลาสลิดหิน",
+			"nameEn": "Damselfish",
+			"descriptionTh": "ปลาขนาดจิ๋วที่โหดร้าย",
+			"descriptionEn": "Small and aggressive.",
+			"rarity": "Rare",
+			"size": "Small",
+			"price": 235,
+			"sellPrice": 140,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 5.08,
+			"maxCaughtSize": 7.62,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach"
+			],
+			"spawns": [
+				{
+					"rowName": "Damselfish",
+					"locations": [
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "firefish",
+			"itemId": "item_72023",
+			"nameTh": "ปลาไฟร์ฟิช",
+			"nameEn": "Firefish",
+			"descriptionTh": "ค่อนข้างน่ากลัว",
+			"descriptionEn": "Fearful in nature.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 5.08,
+			"maxCaughtSize": 7.62,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Firefish",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "flameback-fish",
+			"itemId": "item_72014",
+			"nameTh": "ปลาเฟลมแบ็ค แองเจิล",
+			"nameEn": "Flameback fish",
+			"descriptionTh": "ปลากินเนื้อที่พบในน้ำเค็ม",
+			"descriptionEn": "A carnivorous fish found in saltwater.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 100,
+			"sellPrice": 60,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 3.1,
+			"maxCaughtSize": 8,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock"
+			],
+			"spawns": [
+				{
+					"rowName": "FlamebackFish",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "flowerhorn",
+			"itemId": "item_71003",
+			"nameTh": "ปลาหมอสีฟลาวเวอร์ฮอร์น",
+			"nameEn": "Flowerhorn",
+			"descriptionTh": "ตามตำนานเชื่อว่ามันนำมาซึ่งความเจริญรุ่งเรืองและโชคลาภ",
+			"descriptionEn": "According to legend, it brings prosperity and luck.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 135,
+			"sellPrice": 80,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30,
+			"maxCaughtSize": 41,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake"
+			],
+			"locations": [
+				"CaveEntrance"
+			],
+			"spawns": [
+				{
+					"rowName": "Flowerhorn",
+					"locations": [
+						"CaveEntrance"
+					],
+					"areas": [
+						"Lake"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "freshwater-eel",
+			"itemId": "item_71013",
+			"nameTh": "ปลาไหลน้ำจืด",
+			"nameEn": "Freshwater eel",
+			"descriptionTh": "ลำตัวลื่น ๆ กินปลาเล็ก ๆ เป็นอาหาร",
+			"descriptionEn": "It’s slimy and feeds on small fish.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30,
+			"maxCaughtSize": 91,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night",
+				"Morning"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"Estuary",
+				"RiverFarm",
+				"CaveMiningWater"
+			],
+			"spawns": [
+				{
+					"rowName": "FreshwaterEel",
+					"locations": [
+						"Estuary",
+						"RiverFarm"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "FreshwaterEel_Cave",
+					"locations": [
+						"CaveMiningWater"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "frogfish",
+			"itemId": "item_72001",
+			"nameTh": "ปลากบ",
+			"nameEn": "Frogfish",
+			"descriptionTh": "แม้จะไม่ใช่ปลาที่สวยที่สุด แต่ก็เป็นปลาที่ว่องไวมา",
+			"descriptionEn": "Not the prettiest fish, but extremely agile.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 2.5,
+			"maxCaughtSize": 38,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"Estuary",
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Frogfish",
+					"locations": [
+						"Estuary",
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "gator-gar",
+			"itemId": "item_71008",
+			"nameTh": "ปลาจระเข้",
+			"nameEn": "Gator gar",
+			"descriptionTh": "ปลาชนิดนี้มีปากที่ยาวและแคบ",
+			"descriptionEn": "This fish has a long, narrow mouth.",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 350,
+			"sellPrice": 210,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 122,
+			"maxCaughtSize": 183,
+			"experience": 12,
+			"seasons": [
+				"Spring"
+			],
+			"times": [
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Rain",
+				"Storm"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverForest",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "GatorGar",
+					"locations": [
+						"RiverForest",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Rain",
+						"Storm"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "giant-mudskipper",
+			"itemId": "item_72009",
+			"nameTh": "ปลาตีนยักษ์",
+			"nameEn": "Giant mudskipper",
+			"descriptionTh": "มันมักจะเกิดในช่วงฝนตก",
+			"descriptionEn": "It spawns often during the rain.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 12,
+			"maxCaughtSize": 27,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Winter",
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [],
+			"locations": [
+				"Estuary",
+				"RiceField",
+				"CaveMiningFireLava"
+			],
+			"spawns": [
+				{
+					"rowName": "GiantMudskipper_Estuary",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [],
+					"seasons": [
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "GiantMudskipper_RiceField",
+					"locations": [
+						"RiceField"
+					],
+					"areas": [],
+					"seasons": [
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "GiantMudskipper_Lava",
+					"locations": [
+						"CaveMiningFireLava"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "giant-sea-bass",
+			"itemId": "item_73004",
+			"nameTh": "ปลากะพงยักษ์",
+			"nameEn": "Giant sea bass",
+			"descriptionTh": "ชาวบ้านเรียกปลาชนิดนี้ว่าปลากะพงดำยักษ์ เลื่องขื่อมาก!",
+			"descriptionEn": "The locals call it black sea bass. Legendary.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1410,
+			"sellPrice": 845,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 200,
+			"maxCaughtSize": 213,
+			"experience": 12,
+			"seasons": [
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "GiantSeaBass",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 1,
+								"season": "Fall"
+							},
+							"till": {
+								"day": 7,
+								"season": "Fall"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "GiantSeaBass_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "giant-snakehead",
+			"itemId": "item_71001",
+			"nameTh": "ปลาชะโด",
+			"nameEn": "Giant snakehead",
+			"descriptionTh": "ลำตัวมีแถบสีขาวโดดเด่น",
+			"descriptionEn": "It has distinctive white stripes.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 160,
+			"sellPrice": 95,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 50,
+			"maxCaughtSize": 150,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverForest",
+				"RiverTown"
+			],
+			"spawns": [
+				{
+					"rowName": "GiantSnakeHead",
+					"locations": [
+						"RiverForest",
+						"RiverTown"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "giant-stingray",
+			"itemId": "item_75001",
+			"nameTh": "ปลากระเบนยักษ์",
+			"nameEn": "Giant stingray",
+			"descriptionTh": "ปลาน้ำจืดในตำนาน มันใหญ่มากแต่มันไม่มีกระดูก ร่างกายประกอบไปด้วยกระดูกอ่อนที่ยืดหยุ่น",
+			"descriptionEn": "A legendary freshwater fish. It’s massive, but it has no bones. The whole body is supported by flexible cartilage.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1410,
+			"sellPrice": 845,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 200,
+			"maxCaughtSize": 275,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Morning",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"RiverForest",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "GiantStingray",
+					"locations": [
+						"RiverForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 15,
+								"season": "Spring"
+							},
+							"till": {
+								"day": 28,
+								"season": "Spring"
+							},
+							"year": 1
+						},
+						{
+							"from": {
+								"day": 15,
+								"season": "Summer"
+							},
+							"till": {
+								"day": 28,
+								"season": "Summer"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "GiantStingray_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "golden-gar",
+			"itemId": "item_71019",
+			"nameTh": "ปลาจรเข้",
+			"nameEn": "Golden gar",
+			"descriptionTh": "จะออกมาเฉพาะช่วงที่ฝนตกเท่านั้น",
+			"descriptionEn": "It only comes out in the rain.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 290,
+			"sellPrice": 175,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30,
+			"maxCaughtSize": 48,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Spring",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Sunny",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverFarm",
+				"LakeTemple",
+				"Savannah"
+			],
+			"spawns": [
+				{
+					"rowName": "GoldenGar",
+					"locations": [
+						"RiverFarm",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Summer"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "GoldenGar_Savannah",
+					"locations": [
+						"Savannah"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "goldfish",
+			"itemId": "item_71014",
+			"nameTh": "ปลาทอง",
+			"nameEn": "Goldfish",
+			"descriptionTh": "อาหารที่มันกินมีสัตว์เปลือกแข็งขนาดเล็กรวมอยู่ด้วย",
+			"descriptionEn": "Its diet includes small crustacea.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 2.5,
+			"maxCaughtSize": 36,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverFarm",
+				"RiverForest",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "Goldfish",
+					"locations": [
+						"RiverFarm",
+						"RiverForest",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "great-white-shark",
+			"itemId": "item_75004",
+			"nameTh": "ปลาฉลามขาว",
+			"nameEn": "Great white shark",
+			"descriptionTh": "ปลาน้ำเค็มในตำนาน สุดยอดนักล่าแห่งท้องทะเล",
+			"descriptionEn": "A legendary saltwater fish. The apex predator of the ocean.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1410,
+			"sellPrice": 845,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 340,
+			"maxCaughtSize": 640,
+			"experience": 12,
+			"seasons": [
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [],
+			"locations": [
+				"OceanDock"
+			],
+			"spawns": [
+				{
+					"rowName": "GreatWhiteShark",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [],
+					"seasons": [
+						"Summer"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 1,
+								"season": "Summer"
+							},
+							"till": {
+								"day": 14,
+								"season": "Summer"
+							},
+							"year": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "green-sawfish",
+			"itemId": "item_75002",
+			"nameTh": "ปลาฉนากเขียว",
+			"nameEn": "Green sawfish",
+			"descriptionTh": "ปลาน้ำจืดในตำนาน สามารถรับรู้กระแสไฟฟ้าจากสัตว์อื่นได้",
+			"descriptionEn": "A legendary freshwater fish. It can sense electricity from other animals.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1410,
+			"sellPrice": 845,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 380,
+			"maxCaughtSize": 731,
+			"experience": 12,
+			"seasons": [
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"Estuary",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "GreenSawfish",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 1,
+								"season": "Winter"
+							},
+							"till": {
+								"day": 28,
+								"season": "Winter"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "GreenSawfish_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "grouper",
+			"itemId": "item_72010",
+			"nameTh": "ปลาเก๋า",
+			"nameEn": "Grouper",
+			"descriptionTh": "ปลาตัวใหญ่มาก มีฟันไม่มากนักเลยชอบกลืนเหยื่อทั้งตัว",
+			"descriptionEn": "A very large fish. It doesn’t have many teeth and prefers to swallow its prey whole.",
+			"rarity": "Uncommon",
+			"size": "Large",
+			"price": 160,
+			"sellPrice": 95,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 100,
+			"maxCaughtSize": 250,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"Estuary",
+				"OceanDock",
+				"CaveEntrance"
+			],
+			"spawns": [
+				{
+					"rowName": "Grouper",
+					"locations": [
+						"Estuary",
+						"OceanDock",
+						"CaveEntrance"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "hammerhead",
+			"itemId": "item_75003",
+			"nameTh": "ปลาฉลามหัวค้อน",
+			"nameEn": "Hammerhead",
+			"descriptionTh": "ปลาน้ำเค็มในตำนาน มันใช้หัวอันทรงพลังในการล่าหาอาหาร",
+			"descriptionEn": "A legendary saltwater fish. It uses its powerful head to hunt for food.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1410,
+			"sellPrice": 845,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 300,
+			"maxCaughtSize": 400,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [],
+			"locations": [
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Hammerhead",
+					"locations": [
+						"OceanLookout"
+					],
+					"areas": [],
+					"seasons": [
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 8,
+								"season": "Fall"
+							},
+							"till": {
+								"day": 21,
+								"season": "Fall"
+							},
+							"year": 1
+						},
+						{
+							"from": {
+								"day": 8,
+								"season": "Winter"
+							},
+							"till": {
+								"day": 21,
+								"season": "Winter"
+							},
+							"year": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "jellyfish",
+			"itemId": "item_72031",
+			"nameTh": "แมงกะพรุน",
+			"nameEn": "Jellyfish",
+			"descriptionTh": "หน้าตาน่ารัก แต่อันตรายขั้นสุด",
+			"descriptionEn": "Cute, but venomous and dangerous.",
+			"rarity": "Rare",
+			"size": "Small",
+			"price": 160,
+			"sellPrice": 95,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 1,
+			"maxCaughtSize": 40,
+			"experience": 12,
+			"seasons": [
+				"Spring"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [],
+			"locations": [
+				"OceanBeach",
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Jellyfish",
+					"locations": [
+						"OceanBeach",
+						"OceanLookout"
+					],
+					"areas": [],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "koi",
+			"itemId": "item_71006",
+			"nameTh": null,
+			"nameEn": "Koi",
+			"descriptionTh": "ปลาลายจุดสุดสวย",
+			"descriptionEn": "A beautifully spotted fish.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 290,
+			"sellPrice": 175,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 61,
+			"maxCaughtSize": 91,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverTown",
+				"CaveEntrance",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "Koi",
+					"locations": [
+						"RiverTown",
+						"CaveEntrance",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "lionfish",
+			"itemId": "item_72016",
+			"nameTh": "ปลาสิงโต",
+			"nameEn": "Lionfish",
+			"descriptionTh": "เป็นปลาที่ชอบน้ำอุ่น มักจะพบได้ในฤดูร้อน",
+			"descriptionEn": "It likes warm water. Commonly found in the Summer.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 90,
+			"sellPrice": 55,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30,
+			"maxCaughtSize": 38,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"OceanForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Lionfish",
+					"locations": [
+						"OceanBeach",
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "lobster",
+			"itemId": "item_72015",
+			"nameTh": "กุ้งล็อบสเตอร์",
+			"nameEn": "Lobster",
+			"descriptionTh": "มักพบได้ใกล้ท่าเรือ",
+			"descriptionEn": "Commonly found near the pier.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 190,
+			"sellPrice": 115,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 25,
+			"maxCaughtSize": 50,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"CaveMiningFire"
+			],
+			"spawns": [
+				{
+					"rowName": "Lobster",
+					"locations": [
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Lobster_Cave",
+					"locations": [
+						"CaveMiningFire"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "mackerel",
+			"itemId": "item_72026",
+			"nameTh": "ปลาแมกเคอเรล",
+			"nameEn": "Mackerel",
+			"descriptionTh": "มักว่ายไปไหนมาไหนเป็นกลุ่ม",
+			"descriptionEn": "Swims in large groups.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30.48,
+			"maxCaughtSize": 45.72,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanLookout",
+				"OceanForest",
+				"CaveMiningFireLava"
+			],
+			"spawns": [
+				{
+					"rowName": "Mackarel",
+					"locations": [
+						"OceanLookout",
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Mackarel_Lava",
+					"locations": [
+						"CaveMiningFireLava"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "mandarin",
+			"itemId": "item_72018",
+			"nameTh": null,
+			"nameEn": "Mandarin",
+			"descriptionTh": "ปลาหลากสีสันที่ออกหากินในเวลากลางคืน",
+			"descriptionEn": "A colorful fish that comes out at night.",
+			"rarity": "Rare",
+			"size": "Small",
+			"price": 235,
+			"sellPrice": 140,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 7,
+			"maxCaughtSize": 10,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Mandarin",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "monkfish",
+			"itemId": "item_74002",
+			"nameTh": "มังค์ฟิช",
+			"nameEn": "Monkfish",
+			"descriptionTh": "ปลาน้ำเค็มในตำนาน ไม่ใช่ปลาที่สวยที่สุด",
+			"descriptionEn": "A legendary saltwater fish. Not the prettiest fish.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1240,
+			"sellPrice": 745,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 91.44,
+			"maxCaughtSize": 152.4,
+			"experience": 12,
+			"seasons": [
+				"Spring"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Rain",
+				"Storm"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Monkfish",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 1,
+								"season": "Spring"
+							},
+							"till": {
+								"day": 14,
+								"season": "Spring"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "Monkfish_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "octopus",
+			"itemId": "item_72008",
+			"nameTh": "หมึกสาย",
+			"nameEn": "Octopus",
+			"descriptionTh": "สามารถฟื้นฟูแขนขาที่หายไปได้ มักพบคลานอยู่บนพื้นมหาสมุทร",
+			"descriptionEn": "Can regrow lost limbs. It’s usually found crawling on the ocean floor.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 140,
+			"sellPrice": 85,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30.48,
+			"maxCaughtSize": 91.44,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"OceanBeach"
+			],
+			"spawns": [
+				{
+					"rowName": "Octopus",
+					"locations": [
+						"OceanDock",
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "parrotfish",
+			"itemId": "item_72012",
+			"nameTh": "ปลานกแก้ว",
+			"nameEn": "Parrotfish",
+			"descriptionTh": "มันออกล่าในเวลากลางวันและนอนในเวลากลางคืนในรังไหมเมือกที่สร้างขึ้นเอง",
+			"descriptionEn": "It hunts during the day and sleeps at night in a self-built mucus cocoon.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 90,
+			"sellPrice": 55,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30.48,
+			"maxCaughtSize": 121.92,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Parrotfish",
+					"locations": [
+						"OceanBeach",
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "pink-snapper",
+			"itemId": "item_72005",
+			"nameTh": "ปลากะพงแดง",
+			"nameEn": "Pink snapper",
+			"descriptionTh": "ปลาน้ำเค็มทั่วไปที่มีลำตัวเป็นสีชมพู",
+			"descriptionEn": "A common saltwater fish known for its pinkish hue.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 20,
+			"maxCaughtSize": 28,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"CaveMiningAir"
+			],
+			"spawns": [
+				{
+					"rowName": "PinkSnapper",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "PinkSnapper_Cave",
+					"locations": [
+						"CaveMiningAir"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "polka-dot-batfish",
+			"itemId": "item_72013",
+			"nameTh": "ปลาหูช้าง",
+			"nameEn": "Polka-dot batfish",
+			"descriptionTh": "มันกินเหยื่อโดยการใช้ปากเป็นวงกลมฉกฉวย พบได้ในทะเล",
+			"descriptionEn": "It eats its prey by snatching them with its circular mouth. Found at sea.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 135,
+			"sellPrice": 80,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 25.4,
+			"maxCaughtSize": 38.1,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard",
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest",
+				"CaveMiningAir"
+			],
+			"spawns": [
+				{
+					"rowName": "PolkadotBatfish",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "PolkadotBatfish_Cave",
+					"locations": [
+						"CaveMiningAir"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "pufferfish",
+			"itemId": "item_72004",
+			"nameTh": "ปลาปักเป้า",
+			"nameEn": "Pufferfish",
+			"descriptionTh": "ท้องของมันจะพองตัวขึ้นเมื่อมีภัย",
+			"descriptionEn": "Its elastic stomach inflates when it’s threatened.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 115,
+			"sellPrice": 70,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 1,
+			"maxCaughtSize": 60,
+			"experience": 12,
+			"seasons": [
+				"Winter",
+				"Spring",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"OceanLookout",
+				"CaveMiningAir"
+			],
+			"spawns": [
+				{
+					"rowName": "Pufferfish",
+					"locations": [
+						"OceanDock",
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Pufferfish_Cave",
+					"locations": [
+						"CaveMiningAir"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "rainbow-fish",
+			"itemId": "item_71010",
+			"nameTh": "ปลาเรนโบว์",
+			"nameEn": "Rainbow fish",
+			"descriptionTh": "โดดเด่นด้วยจุด ๆ และบลัชออนสีแดงบนแก้ม",
+			"descriptionEn": "Characterized by spots and a red blush on its cheeks.",
+			"rarity": "Uncommon",
+			"size": "Small",
+			"price": 100,
+			"sellPrice": 60,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 7,
+			"maxCaughtSize": 12,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy",
+				"Snow",
+				"Blizzard",
+				"Rain",
+				"Storm"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"RiverTown",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "RainbowFish",
+					"locations": [
+						"RiverTown"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "RainbowFish_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "raja-ampat-shark",
+			"itemId": "item_75005",
+			"nameTh": "ปลาฉลามครีบดำ",
+			"nameEn": "Raja Ampat shark",
+			"descriptionTh": "ปลาน้ำเค็มในตำนาน สามารถ “เดิน” ไปตามพื้นทะเลและเหนือแนวปะการังน้ำตื้นได้",
+			"descriptionEn": "A legendary saltwater fish. It can “walk” along the seafloor and over shallow reefs.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1240,
+			"sellPrice": 745,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 72,
+			"maxCaughtSize": 160,
+			"experience": 0,
+			"seasons": [
+				"Summer"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [],
+			"locations": [
+				"OceanLookout",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "RajaAmpatShark",
+					"locations": [
+						"OceanLookout"
+					],
+					"areas": [],
+					"seasons": [
+						"Summer"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 1,
+								"season": "Summer"
+							},
+							"till": {
+								"day": 14,
+								"season": "Summer"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "RajaAmpatShark_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [],
+					"seasons": [
+						"Summer"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "red-king-arowana",
+			"itemId": "item_74001",
+			"nameTh": "ปลามังกรแดง",
+			"nameEn": "Red king arowana",
+			"descriptionTh": "ปลาน้ำจืดในตำนาน ถือเป็นสัญลักษณ์แห่งความโชคดี",
+			"descriptionEn": "A legendary freshwater fish. Considered a symbol of good fortune.",
+			"rarity": "Legendary",
+			"size": "Medium",
+			"price": 1035,
+			"sellPrice": 620,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 76,
+			"maxCaughtSize": 89,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Spring",
+				"Summer",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Morning",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Windy",
+				"Sunny",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"Cave"
+			],
+			"locations": [
+				"CaveMiningFire",
+				"CaveMiningAir",
+				"CaveMiningWater",
+				"CaveMiningFireLava",
+				"Savannah"
+			],
+			"spawns": [
+				{
+					"rowName": "KingRedArowana",
+					"locations": [
+						"CaveMiningFire",
+						"CaveMiningAir",
+						"CaveMiningWater",
+						"CaveMiningFireLava"
+					],
+					"areas": [
+						"Lake",
+						"Cave"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 22,
+								"season": "Fall"
+							},
+							"till": {
+								"day": 28,
+								"season": "Fall"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "KingRedArowana_Savannah",
+					"locations": [
+						"Savannah"
+					],
+					"areas": [
+						"Lake",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "red-snapper",
+			"itemId": "item_73006",
+			"nameTh": "ปลากระพงแดง",
+			"nameEn": "Red snapper",
+			"descriptionTh": "มันวางไข่เพื่อสืบพันธุ์",
+			"descriptionEn": "It lays eggs to reproduce.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 40.64,
+			"maxCaughtSize": 101.6,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"RiverTown",
+				"LakeTemple",
+				"Estuary"
+			],
+			"spawns": [
+				{
+					"rowName": "RedSnapper",
+					"locations": [
+						"RiverTown",
+						"LakeTemple"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "RedSnapper_Estuary",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "ruby-red-dragonet",
+			"itemId": "item_72006",
+			"nameTh": "ปลาทับทิม",
+			"nameEn": "Ruby red dragonet",
+			"descriptionTh": "ปลาตัวเล็ก",
+			"descriptionEn": "A small, feisty fish.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 3.81,
+			"maxCaughtSize": 6.35,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"CaveEntrance"
+			],
+			"spawns": [
+				{
+					"rowName": "RubyRedDragonet",
+					"locations": [
+						"OceanBeach",
+						"CaveEntrance"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "salmon",
+			"itemId": "item_72030",
+			"nameTh": "ปลาแซลมอน",
+			"nameEn": "Salmon",
+			"descriptionTh": "ปลาน้ำเค็มทั่วไป",
+			"descriptionEn": "A common saltwater fish.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 71,
+			"maxCaughtSize": 76,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"Estuary",
+				"LakeTemple",
+				"RiverFarm",
+				"RiverForest",
+				"RiverTown"
+			],
+			"spawns": [
+				{
+					"rowName": "Salmon_Estuary",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Salmon_LakeTemple",
+					"locations": [
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Salmon_Fall",
+					"locations": [
+						"RiverFarm",
+						"RiverForest",
+						"RiverTown"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "sardine",
+			"itemId": "item_73005",
+			"nameTh": null,
+			"nameEn": "Sardine",
+			"descriptionTh": "น้ำมันฉ่ำมากแต่อุดมไปด้วยสารอาหาร",
+			"descriptionEn": "Very oily and packed with nutrients.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 15.24,
+			"maxCaughtSize": 30.48,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall",
+				"Spring",
+				"Winter"
+			],
+			"times": [
+				"Evening",
+				"Night",
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"OceanLookout",
+				"CaveMiningFireLava"
+			],
+			"spawns": [
+				{
+					"rowName": "Sardine",
+					"locations": [
+						"OceanBeach",
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Sardine_Lava",
+					"locations": [
+						"CaveMiningFireLava"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "sea-cucumber",
+			"itemId": "item_72011",
+			"nameTh": "ปลิงทะเล",
+			"nameEn": "Sea cucumber",
+			"descriptionTh": "หาได้ยาก เพราะชอบอาศัยอยู่ที่ก้นทะเลลึก",
+			"descriptionEn": "Rarely encountered because it likes to live on the deep seafloor.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 290,
+			"sellPrice": 175,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 2.5,
+			"maxCaughtSize": 180,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanForest",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "SeaCucumber",
+					"locations": [
+						"OceanForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "SeaCucumber_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "shrimp",
+			"itemId": "item_73002",
+			"nameTh": "กุ้ง",
+			"nameEn": "Shrimp",
+			"descriptionTh": "อยู่กันเป็นกลุ่ม",
+			"descriptionEn": "Travels in schools.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 4,
+			"maxCaughtSize": 8,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Pond"
+			],
+			"locations": [
+				"Pond"
+			],
+			"spawns": [
+				{
+					"rowName": "Shrimp",
+					"locations": [
+						"Pond"
+					],
+					"areas": [
+						"Pond"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "silver-arowana",
+			"itemId": "item_71005",
+			"nameTh": "ปลาอะโรวาน่าเงิน",
+			"nameEn": "Silver arowana",
+			"descriptionTh": "ปลานักล่าที่ต้องกระโดดออกจากน้ำเพื่อตามล่าเหยื่อ",
+			"descriptionEn": "A predatory fish. It’s known to jump out of the water in pursuit of prey.",
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"price": 135,
+			"sellPrice": 80,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 70,
+			"maxCaughtSize": 120,
+			"experience": 12,
+			"seasons": [
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"CaveMiningEarth",
+				"CaveMiningWater",
+				"CaveMiningAir"
+			],
+			"spawns": [
+				{
+					"rowName": "SilverArowana",
+					"locations": [
+						"CaveMiningEarth",
+						"CaveMiningWater",
+						"CaveMiningAir"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "snakehead",
+			"itemId": "item_71015",
+			"nameTh": "ปลาช่อน",
+			"nameEn": "Snakehead",
+			"descriptionTh": "เป็นนักล่าที่ดุร้าย มีปากขนาดใหญ่และฟันเป็นมันเงา",
+			"descriptionEn": "A fierce predator with a large mouth and shiny teeth.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 30,
+			"maxCaughtSize": 89,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm"
+			],
+			"areas": [
+				"River"
+			],
+			"locations": [
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "SnakeheadFish",
+					"locations": [
+						"LakeTemple"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "sockeye-salmon",
+			"itemId": "item_73008",
+			"nameTh": "ปลาแซลมอนซ็อกอาย",
+			"nameEn": "Sockeye salmon",
+			"descriptionTh": "มันจะฟักตัวในทะเลสาบ แล้วเดินทางออกทะเลเพื่อหาอาหารจากแพลงก์ตอนสัตว์",
+			"descriptionEn": "It hatches in a lake, then journeys out to sea to feed on zooplankton.",
+			"rarity": "Rare",
+			"size": "Medium",
+			"price": 135,
+			"sellPrice": 80,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 71.12,
+			"maxCaughtSize": 76.2,
+			"experience": 12,
+			"seasons": [
+				"Winter",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"Estuary",
+				"LakeTemple",
+				"RiverFarm",
+				"RiverForest",
+				"RiverTown"
+			],
+			"spawns": [
+				{
+					"rowName": "SockeyeSalmon_Estuary",
+					"locations": [
+						"Estuary"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "SockeyeSalmon_LakeTemple",
+					"locations": [
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "SockeyeSalmon_Fall",
+					"locations": [
+						"RiverFarm",
+						"RiverForest",
+						"RiverTown"
+					],
+					"areas": [
+						"River"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "squid",
+			"itemId": "item_72007",
+			"nameTh": "ปลาหมึก",
+			"nameEn": "Squid",
+			"descriptionTh": "เมื่อถูกคุกคามจะปล่อยหมึกสีดำ ๆ ออกมา",
+			"descriptionEn": "Shoots black ink when threatened.",
+			"rarity": "Common",
+			"size": "Medium",
+			"price": 75,
+			"sellPrice": 45,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 55,
+			"maxCaughtSize": 60,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanLookout"
+			],
+			"spawns": [
+				{
+					"rowName": "Squid",
+					"locations": [
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Summer",
+						"Fall"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "sturgeon",
+			"itemId": "item_73007",
+			"nameTh": "ปลาสเตอร์เจียน",
+			"nameEn": "Sturgeon",
+			"descriptionTh": "ปลาสเตอร์เจียนตัวเมียสามารถวางไข่ได้สองถึงสามล้านฟองต่อฤดูผสมพันธุ์",
+			"descriptionEn": "Female sturgeon can lay two to three million eggs per breeding season.",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 400,
+			"sellPrice": 240,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 213,
+			"maxCaughtSize": 305,
+			"experience": 12,
+			"seasons": [
+				"Summer",
+				"Fall",
+				"Winter",
+				"Spring"
+			],
+			"times": [
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard",
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River",
+				"Ocean"
+			],
+			"locations": [
+				"RiverFarm",
+				"LakeTemple",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "Sturgeon",
+					"locations": [
+						"RiverFarm",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Sturgeon_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "swordfish",
+			"itemId": "item_72029",
+			"nameTh": "ปลากระโทงดาบ",
+			"nameEn": "Swordfish",
+			"descriptionTh": "ปากของมันมีขนาดยาวแหลมเหมือนดาบ",
+			"descriptionEn": "Its long, pointy bill is said to resemble a sword.",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 350,
+			"sellPrice": 210,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 119.38,
+			"maxCaughtSize": 190.5,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock"
+			],
+			"spawns": [
+				{
+					"rowName": "Swordfish",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "tiger-barb",
+			"itemId": "item_71011",
+			"nameTh": "ปลาเสือสุมาตรา",
+			"nameEn": "Tiger barb",
+			"descriptionTh": "ปลาน้ำจืดทั่วไปที่มีแถบสีดำบนตัว",
+			"descriptionEn": "A common freshwater fish known for its black stripes.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 7,
+			"maxCaughtSize": 10,
+			"experience": 12,
+			"seasons": [
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Lake",
+				"River"
+			],
+			"locations": [
+				"Pond",
+				"LakeTemple"
+			],
+			"spawns": [
+				{
+					"rowName": "TigerBarb",
+					"locations": [
+						"Pond",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "tilapia",
+			"itemId": "item_71004",
+			"nameTh": null,
+			"nameEn": "Tilapia",
+			"descriptionTh": "ปลาน้ำจืดทั่วไป",
+			"descriptionEn": "A common freshwater fish.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 65,
+			"sellPrice": 40,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 12,
+			"maxCaughtSize": 20,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Winter",
+				"Summer",
+				"Fall"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake",
+				"River",
+				"Cave"
+			],
+			"locations": [
+				"Pond",
+				"LakeTemple",
+				"CaveMiningEarth"
+			],
+			"spawns": [
+				{
+					"rowName": "Tilapia",
+					"locations": [
+						"Pond",
+						"LakeTemple"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Tilapia_Cave",
+					"locations": [
+						"CaveMiningEarth"
+					],
+					"areas": [
+						"Lake",
+						"River",
+						"Cave"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "tuna",
+			"itemId": "item_72003",
+			"nameTh": "ปลาทูน่า",
+			"nameEn": "Tuna",
+			"descriptionTh": "มีความสามารถในการรักษาอุณหภูมิของร่างกายให้คงที่",
+			"descriptionEn": "It has the ability to maintain a constant body temperature.",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 400,
+			"sellPrice": 240,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 200,
+			"maxCaughtSize": 460,
+			"experience": 12,
+			"seasons": [
+				"Fall",
+				"Spring",
+				"Summer",
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening",
+				"Morning",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"OceanLookout",
+				"CaveMiningFire"
+			],
+			"spawns": [
+				{
+					"rowName": "Tuna",
+					"locations": [
+						"OceanDock",
+						"OceanLookout"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Fall"
+					],
+					"times": [
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Tuna_Cave",
+					"locations": [
+						"CaveMiningFire"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "yellow-moray-eel",
+			"itemId": "item_74003",
+			"nameTh": "ปลาไหลมอเรย์เยลโล่",
+			"nameEn": "Yellow moray eel",
+			"descriptionTh": "ปลาน้ำเค็มในตำนาน ต่างจากปลาอื่น ๆ ที่หายใจผ่านเหงือก ปลาไหลชนิดนี้จะเปิดและปิดปากเพื่อหายใจ",
+			"descriptionEn": "A legendary saltwater fish. Unlike many other fish that breathe through gills, the eel opens and closes its mouth to breathe.",
+			"rarity": "Legendary",
+			"size": "Large",
+			"price": 1240,
+			"sellPrice": 745,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 80,
+			"maxCaughtSize": 240,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Night",
+				"Morning",
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanBeach",
+				"DeepForest"
+			],
+			"spawns": [
+				{
+					"rowName": "YellowMorayEel",
+					"locations": [
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer"
+					],
+					"times": [
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": [
+						{
+							"from": {
+								"day": 15,
+								"season": "Spring"
+							},
+							"till": {
+								"day": 28,
+								"season": "Spring"
+							},
+							"year": 1
+						},
+						{
+							"from": {
+								"day": 15,
+								"season": "Summer"
+							},
+							"till": {
+								"day": 28,
+								"season": "Summer"
+							},
+							"year": 1
+						}
+					]
+				},
+				{
+					"rowName": "YellowMorayEel_DeepForest",
+					"locations": [
+						"DeepForest"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "yellowfin-tuna",
+			"itemId": "item_72027",
+			"nameTh": "ปลาทูน่าครีบเหลือง",
+			"nameEn": "Yellowfin tuna",
+			"descriptionTh": "โอ้โหเป็นปลาทูน่าที่ใหญ่มาก!",
+			"descriptionEn": "That is one big tuna!",
+			"rarity": "Rare",
+			"size": "Large",
+			"price": 350,
+			"sellPrice": 210,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 110,
+			"maxCaughtSize": 210,
+			"experience": 12,
+			"seasons": [
+				"Winter"
+			],
+			"times": [
+				"Afternoon",
+				"Evening"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"OceanBeach"
+			],
+			"spawns": [
+				{
+					"rowName": "YellowfinTuna",
+					"locations": [
+						"OceanDock",
+						"OceanBeach"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Winter"
+					],
+					"times": [
+						"Afternoon",
+						"Evening"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "yellowtail",
+			"itemId": "item_72002",
+			"nameTh": "ปลาหางเหลือง",
+			"nameEn": "Yellowtail",
+			"descriptionTh": "ปลาน้ำเค็มทั่วไป",
+			"descriptionEn": "A common saltwater fish.",
+			"rarity": "Common",
+			"size": "Large",
+			"price": 90,
+			"sellPrice": 55,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 200,
+			"maxCaughtSize": 250,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Rain",
+				"Storm",
+				"Snow",
+				"Blizzard",
+				"Sunny",
+				"Windy"
+			],
+			"areas": [
+				"Ocean"
+			],
+			"locations": [
+				"OceanDock",
+				"CaveMiningFire"
+			],
+			"spawns": [
+				{
+					"rowName": "Yellowtail",
+					"locations": [
+						"OceanDock"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Rain",
+						"Storm",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "Yellowtail_Cave",
+					"locations": [
+						"CaveMiningFire"
+					],
+					"areas": [
+						"Ocean"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				}
+			]
+		},
+		{
+			"slug": "zebra-fish",
+			"itemId": "item_71018",
+			"nameTh": "ปลาม้าลาย",
+			"nameEn": "Zebra fish",
+			"descriptionTh": "ปลาทั่วไปของฤดูใบไม้ผลิ",
+			"descriptionEn": "A common fish of the Spring.",
+			"rarity": "Common",
+			"size": "Small",
+			"price": 60,
+			"sellPrice": 35,
+			"sellAt": [
+				"BeachShack"
+			],
+			"minCaughtSize": 3,
+			"maxCaughtSize": 5,
+			"experience": 12,
+			"seasons": [
+				"Spring",
+				"Summer",
+				"Fall",
+				"Winter"
+			],
+			"times": [
+				"Morning",
+				"Afternoon",
+				"Evening",
+				"Night"
+			],
+			"weather": [
+				"Sunny",
+				"Rain",
+				"Storm",
+				"Windy",
+				"Snow",
+				"Blizzard"
+			],
+			"areas": [
+				"Lake"
+			],
+			"locations": [
+				"RiceField",
+				"RiverFarm",
+				"RiverForest"
+			],
+			"spawns": [
+				{
+					"rowName": "ZebraFish",
+					"locations": [
+						"RiceField"
+					],
+					"areas": [
+						"Lake"
+					],
+					"seasons": [
+						"Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy",
+						"Snow",
+						"Blizzard"
+					],
+					"dateRanges": []
+				},
+				{
+					"rowName": "ZebraFish_Spring",
+					"locations": [
+						"RiverFarm",
+						"RiverForest"
+					],
+					"areas": [
+						"Lake"
+					],
+					"seasons": [
+						"Spring"
+					],
+					"times": [
+						"Morning",
+						"Afternoon",
+						"Evening",
+						"Night"
+					],
+					"weather": [
+						"Sunny",
+						"Rain",
+						"Storm",
+						"Windy"
+					],
+					"dateRanges": []
+				}
+			]
+		}
+	]
+}
