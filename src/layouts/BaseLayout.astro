@@ -1,0 +1,86 @@
+---
+import { Font } from 'astro:assets';
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description: string;
+	ogImage?: string;
+}
+
+const { title, description, ogImage } = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImageUrl = ogImage ? new URL(ogImage, Astro.site) : undefined;
+
+const nav = [
+	{ href: '/', label: 'หน้าแรก' },
+	{ href: '/guide/', label: 'ไกด์' },
+];
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="th">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+
+		<Font cssVariable="--font-noto-thai" preload />
+
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
+
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="th_TH" />
+		<meta property="og:site_name" content="Coral Island Wiki ไทย" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		{ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+		<meta name="twitter:card" content={ogImageUrl ? 'summary_large_image' : 'summary'} />
+	</head>
+
+	<body class="flex min-h-dvh flex-col bg-white text-slate-800">
+		<header class="border-b border-slate-200">
+			<div class="mx-auto flex max-w-3xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-4">
+				<a href="/" class="text-lg font-bold text-teal-700">Coral Island Wiki ไทย</a>
+				<nav aria-label="เมนูหลัก">
+					<ul class="flex gap-4 text-sm">
+						{
+							nav.map((item) => (
+								<li>
+									<a
+										href={item.href}
+										aria-current={path === item.href ? 'page' : undefined}
+										class="hover:text-teal-700 aria-[current=page]:font-bold aria-[current=page]:text-teal-700"
+									>
+										{item.label}
+									</a>
+								</li>
+							))
+						}
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="mx-auto w-full max-w-3xl grow px-4 py-8">
+			<slot />
+		</main>
+
+		<footer class="border-t border-slate-200 text-sm text-slate-500">
+			<div class="mx-auto max-w-3xl space-y-1 px-4 py-6">
+				<p>
+					เว็บไซต์นี้เป็นเว็บแฟนเมด ไม่มีส่วนเกี่ยวข้องกับ Stairway Games ผู้พัฒนาเกม Coral Island
+					เครื่องหมายการค้าและเนื้อหาในเกมเป็นของเจ้าของลิขสิทธิ์
+				</p>
+				<p>ข้อมูลในเว็บอ้างอิงจากไฟล์ภาษาไทยในตัวเกม</p>
+			</div>
+		</footer>
+	</body>
+</html>
