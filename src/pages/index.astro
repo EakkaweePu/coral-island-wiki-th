@@ -1,17 +1,21 @@
 ---
-
+import { Font } from 'astro:assets';
+import '../styles/global.css';
 ---
 
-<html lang="en">
+<html lang="th">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<Font cssVariable="--font-noto-thai" preload />
+		<title>Coral Island Wiki ไทย</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1 class="text-3xl font-bold">Coral Island Wiki ภาษาไทย</h1>
+		<p>ทดสอบฟอนต์ไทย น้ำหนักปกติ — Angelfish ปลาเทวดา ๑๒๓๔๕๖๗๘๙๐</p>
+		<p class="font-bold">ทดสอบฟอนต์ไทย น้ำหนักหนา — ญ ฐ ปฏิทิน กุ้ง ฤๅษี</p>
 	</body>
 </html>

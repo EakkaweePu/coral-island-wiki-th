@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# raw game exports from FModel — large binaries, read-only source of truth
+# processed output in data/processed/ is committed instead
+data/raw/
+
+# checkmarx extension artifact
+.vscode/.checkmarxIgnored
