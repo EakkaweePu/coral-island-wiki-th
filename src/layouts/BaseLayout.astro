@@ -13,10 +13,7 @@ const { title, description, ogImage } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImageUrl = ogImage ? new URL(ogImage, Astro.site) : undefined;
 
-const nav = [
-	{ href: '/', label: 'หน้าแรก' },
-	{ href: '/guide/', label: 'ไกด์' },
-];
+const nav = [{ href: '/', label: 'หน้าแรก' }];
 const path = Astro.url.pathname;
 ---
 
