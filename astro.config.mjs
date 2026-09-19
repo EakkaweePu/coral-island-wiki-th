@@ -7,8 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  // ยืนยัน URL จริงอีกครั้งตอน deploy (0.6) แล้วแก้ให้ตรง
-  site: 'https://coral-island-wiki-th.pages.dev',
+  site: 'https://coral-island-wiki-th.eakkawee-pu.workers.dev',
 
   fonts: [
     {
